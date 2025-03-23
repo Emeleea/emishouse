@@ -59,9 +59,9 @@ h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
 p {
   margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
 }
-p + p {
+/* p + p {
 
-}
+} */
 
 /**
  * Quotes & Blockquotes
@@ -137,6 +137,3 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
-
-
-
