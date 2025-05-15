@@ -6,8 +6,19 @@
 html {
   font-size: 62.5%;
 }
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+} 
+
+th, td {
+  padding: 8px;
+}
+
+
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 20px; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -105,6 +116,13 @@ header, #content, footer {
   background: rgba(0,0,0,.8); 
   padding:25px;
   color:#FFFFFF; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 /* Menu Links */
