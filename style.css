@@ -107,8 +107,8 @@ blockquote p:last-child {
 /* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:url(background.png) center center no-repeat fixed;
-  background-size:cover;
+  background: #FBD6E3;
+  background: linear-gradient(90deg,rgba(251, 214, 227, 1) 0%, rgba(169, 237, 233, 1) 100%);
 }
 body {
   max-width:1500px;
