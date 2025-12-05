@@ -5,7 +5,7 @@ const sources = [
     title: 'r/transontario Gender Affirming Care Spreadsheet',
     url: 'https://docs.google.com/spreadsheets/d/111o63tvt20heohe9ktrw_azpbkoz4kpz1pb7r0cjpvu/edit?gid=0#gid=0',
     location: 'Online',
-    description: 'Community effort from r/transontario to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
+    description: 'Community maintained effort from r/transontario to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
   },
   {
     id: 1,
@@ -16,21 +16,22 @@ const sources = [
     description: 'This directory is designed to help you find health and social service providers who have expressed a commitment to providing competent and welcoming care to 2SLGBTQ people in ontario. (Taken from website)',
   },
   {
-    category:'list',
-    title: 'PFLAG',
-    url: '',
-    location: '',
-    description: '',
+    id: "05c2",
+    category: "list",
+    title: "pflag",
+    url: "https://pflagcanada.ca/chapters/",
+    location: "Chapters across Ontario",
+    description: "pflag is a Canadian organization with chapters all across Ontario. On most of these chapters pages you can find a list of Queer resources that are local to the area that would be hard to find otherwise."
   },
   { id: 2,
-    category:'highlight',
+    category:'legal',
     title: 'HQ Toronto',
     url: 'https://hqtoronto.ca/',
     location: '790 Bay St. #820, Toronto, ON M5G 1N8',
     description: 'HQ Toronto is a healthcare center near College Station that has a variety of resouces from legal to clinical. They have STD tests, mental and social health services, alongside a once-a-month trans ID legal clinic.',
   },
   { id: 3,
-    category:'highlight',
+    category:'social',
     title: 'The 519',
     url: 'https://www.the519.org/',
     location: '519 Church Street, Toronto, ON M4Y 2C9',
@@ -123,14 +124,6 @@ const sources = [
     description: '',
   },
   {
-    id: 16, 
-    category:'mental',
-    title: 'Catholic Family Services: YouthCALL',
-    url: 'https://cfssc.ca/',
-    location: '20 Anne St S, Barrie, ON L4N 2C5',
-    description: 'Free counselling for ages 12-25 in the Muskoka/Simcoe areas. Subject to removal due to having no insight into the Queer/Trans experience there.',
-  },
-  {
     id: 17, 
     category:'mental',
     title: 'Canadian Mental Health Association',
@@ -169,6 +162,22 @@ const sources = [
     url: "https://www.telecarepeterborough.org",
     location: "Phone",
     description: "705-745-2273"
+  },
+  {
+    id: "b3bf",
+    category: "highlight",
+    title: "COMET",
+    url: "https://www.fairlawnchurch.ca/events/comet/2025-12-09/",
+    location: "28 Fairlawn Ave, Toronto, ON M5M 1S7",
+    description: "COMET (Come Out & Meet Each Tuesday) is a free after-school drop-in program for 2SLGBTQIA+ youth ages 13-18 in North Toronto and the Greater Toronto Area. Questioning youth and allied friends are also welcome. (From the website)"
+  },
+  {
+    id: "c7a0",
+    category: "social",
+    title: "George Chuvalo Neighbourhood Centre",
+    url: "https://www.conccommunity.org/george-chuvalo/",
+    location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
+    description: "GCNC is here to provide exceptional programming and help build community-based resources. The Centre has a special focus on 2SLGBTQIA+ communities and children, youth, family programming, and is home to LOFT Kitchen Café and The Nook Children’s Program. (Taken from website)"
   }
 ];
 
@@ -186,7 +195,7 @@ let housingSources = ``;
 let financialSources = ``;
 let foodSources = ``;
 
-// The gay for loop in question 
+// The for loop in question 
 sources.forEach(function (source) {
 let cardTemplate = `
     <div class="card">
@@ -276,7 +285,7 @@ let cardTemplate = `
   }
 });
 
-//Selecting the divs in index.html and making them the filled variables
+//Selecting the divs in index.html and making them their respective filled variables
 const highlightcards = document.querySelector('.highlighted-resources');
 highlightcards.innerHTML = highlightedSources;
 
@@ -302,15 +311,15 @@ const familycards = document.querySelector('.family-resources');
 familycards.innerHTML = familySources;
 
 const harmreductcards = document.querySelector('.harmreduct-resources');
-medicalcards.innerHTML = medicalSources;
+harmreductcards.innerHTML = harmreductSources;
 
 const housingcards = document.querySelector('.housing-resources');
-legalcards.innerHTML = legalSources;
+housingcards.innerHTML = housingSources;
 
 const financialcards    = document.querySelector('.financial-resources');
-hrtcards.innerHTML = hrtSources;
+financialcards.innerHTML = financialSources;
 
-const foodcards = document.querySelector('.family-resources');
-familycards.innerHTML = familySources;
+const foodcards = document.querySelector('.food-resources');
+foodcards.innerHTML = foodSources;
 
 
