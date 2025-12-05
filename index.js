@@ -1,33 +1,40 @@
 const sources = [
   {
     id: 0, 
-    category:'highlight',
+    category: 'list',
     title: 'r/transontario Gender Affirming Care Spreadsheet',
     url: 'https://docs.google.com/spreadsheets/d/111o63tvt20heohe9ktrw_azpbkoz4kpz1pb7r0cjpvu/edit?gid=0#gid=0',
-    location: 'online',
-    description: 'test',
+    location: 'Online',
+    description: 'Community effort from r/transontario to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
   },
   {
     id: 1,
-    category:'highlight',
+    category:'list',
     title: 'Rainbow Health Directory',
     url: 'https://www.rainbowhealthontario.ca/2slgbtq-health/service-provider-directory/',
-    location: 'online',
+    location: 'Online',
     description: 'This directory is designed to help you find health and social service providers who have expressed a commitment to providing competent and welcoming care to 2SLGBTQ people in ontario. (Taken from website)',
+  },
+  {
+    category:'list',
+    title: 'PFLAG',
+    url: '',
+    location: '',
+    description: '',
   },
   { id: 2,
     category:'highlight',
     title: 'HQ Toronto',
     url: 'https://hqtoronto.ca/',
-    location: '790 Bay st. #820, Toronto, ON M5G 1N8',
-    description: 'HQ Toronto is a healthcare center near College Station that has a variety of resouces from legal to clinical. Express STD testing, mental and social health services, alongside a once-a-month trans ID legal clinic.',
+    location: '790 Bay St. #820, Toronto, ON M5G 1N8',
+    description: 'HQ Toronto is a healthcare center near College Station that has a variety of resouces from legal to clinical. They have STD tests, mental and social health services, alongside a once-a-month trans ID legal clinic.',
   },
   { id: 3,
     category:'highlight',
-    title: 'the 519',
+    title: 'The 519',
     url: 'https://www.the519.org/',
     location: '519 Church Street, Toronto, ON M4Y 2C9',
-    description: 'Major LGBTQ hub in the center of the village. Services and supports in many different areas. financial, newcomers to Canada, housing, family and children, health services, art and culture, and social events that happen every month.',
+    description: 'Major LGBTQ hub in the center of the village. Services and supports in many different areas. Financial, newcomers to Canada, housing, family and children, health services, art and culture, and social events that happen multiple times a week!',
   },
   { id: 4,
     category:'social',
@@ -62,14 +69,14 @@ const sources = [
   {
     id: 8, 
     category:'social',
-    title: 'Simcoe County',
+    title: 'Simcoe Pride',
     url: 'https://www.simcoepride.com/',
-    location: 'Simcoe Pride',
+    location: 'Simcoe County',
     description: '',
   },
   {
     id: 9, 
-    category:'social',
+    category:'',
     title: '',
     url: '',
     location: '',
@@ -95,23 +102,15 @@ const sources = [
     id: 12, 
     category:'mental',
     title: 'Beyond Trauma',
-    url: '',
-    location: '',
-    description: '',
-  },
-  {
-    id: 13,
-    category:'mental',
-    title: 'Ontario Structured Psychotherapy Programs',
-    url: '',
-    location: '',
+    url: 'https://beyondtrc.com/',
+    location: '15 Gallie Ct Suite 110, Barrie, ON L4M 0G6',
     description: '',
   },
   {
     id: 14, 
     category:'mental',
     title: 'Bounce Back',
-    url: '',
+    url: 'https://bouncebackontario.ca/',
     location: '',
     description: '',
   },
@@ -119,52 +118,75 @@ const sources = [
     id: 15, 
     category:'mental',
     title: 'Gilbert Centre',
-    url: '',
-    location: '',
+    url: 'https://www.gilbertcentre.ca/',
+    location: '80 Bradford St Suite 525, Barrie, ON L4N 3A8',
     description: '',
   },
   {
     id: 16, 
     category:'mental',
-    title: 'Catholic Family Services Simcoe County',
-    url: '',
-    location: '',
-    description: '',
+    title: 'Catholic Family Services: YouthCALL',
+    url: 'https://cfssc.ca/',
+    location: '20 Anne St S, Barrie, ON L4N 2C5',
+    description: 'Free counselling for ages 12-25 in the Muskoka/Simcoe areas. Subject to removal due to having no insight into the Queer/Trans experience there.',
   },
   {
     id: 17, 
     category:'mental',
-    title: 'CMHA',
-    url: '',
-    location: '',
+    title: 'Canadian Mental Health Association',
+    url: 'https://cmha.ca/',
+    location: 'Multiple locations',
     description: '',
+  },
+  {
+    id: "aa28",
+    category: "hrt",
+    title: "Gender Affirming Clinic | CMHA York Region & South Simcoe",
+    url: "https://cmha-yr.on.ca/get-support/gender-affirming-health-clinic-12/",
+    location: "Online",
+    description: "Self-referral HRT for those living in the York/South Simcoe area. (12+)"
   },
   {
     id: 18, 
     category:'mental',
     title: 'LGBTQ Youthline',
-    url: '',
-    location: '',
-    description: '',
+    url: 'https://www.youthline.ca/',
+    location: 'Online',
+    description: 'YouthLine offers free support through our Ontario-wide 2SLGBTQ+ peer-support HelpLine (Taken from website)',
   },
   {
     id: 19, 
-    category:'',
-    title: '',
-    url: '',
-    location: '',
+    category:'mental',
+    title: '310-COPE',
+    url: 'https://yssn.ca/crisis-services/310-cope/',
+    location: 'Phone',
     description: '',
+  },
+  {
+    id: "e26a",
+    category: "mental",
+    title: "Telecare Distress Centre of Peterborough",
+    url: "https://www.telecarepeterborough.org",
+    location: "Phone",
+    description: "705-745-2273"
   }
 ];
 
+// Blank variables that get filled with sources via for loop
 let highlightedSources = ``;
+let listSources = ``;
 let socialSources = ``;
 let mentalSources = ``;
 let medicalSources = ``;
+let legalSources = ``;
+let hrtSources = ``;
 let familySources = ``;
 let harmreductSources = ``;
-let financialfoodSources = ``;
+let housingSources = ``;
+let financialSources = ``;
+let foodSources = ``;
 
+// The gay for loop in question 
 sources.forEach(function (source) {
 let cardTemplate = `
     <div class="card">
@@ -179,40 +201,116 @@ let cardTemplate = `
       </div>
     </div>
     `;
+
   if (source.category === 'highlight') {
   highlightedSources=
     highlightedSources+
     cardTemplate; 
 
   }
-  console.log(highlightedSources)
+  if (source.category === 'list') {
+  listSources=
+    listSources+
+    cardTemplate; 
+
+  }
   if (source.category === 'social') {
   socialSources =
     socialSources+
     cardTemplate;
 
   }
-  console.log(socialSources)
   if (source.category === 'mental') {
   mentalSources =
     mentalSources+
     cardTemplate;
 
   }
-  console.log(mentalSources)
+  if (source.category === 'medical') {
+  medicalSources=
+    medicalSources+
+    cardTemplate; 
 
+  }
+  if (source.category === 'legal') {
+  legalSources=
+    legalSources+
+    cardTemplate; 
+
+  }
+  if (source.category === 'hrt') {
+  hrtSources =
+    hrtSources+
+    cardTemplate;
+
+  }
+  if (source.category === 'family') {
+  familySources =
+    familySources+
+    cardTemplate;
+
+  }
+  if (source.category === 'harmreduct') {
+  harmreductSources =
+    harmreductSources+
+    cardTemplate;
+
+  }
+  if (source.category === 'housing') {
+  housingSources =
+    housingSources+
+    cardTemplate;
+
+  }
+  if (source.category === 'financial') {
+  financialSources =
+    financialSources+
+    cardTemplate;
+
+  }
+  if (source.category === 'food') {
+  foodSources =
+    foodSources+
+    cardTemplate;
+
+  }
 });
 
+//Selecting the divs in index.html and making them the filled variables
 const highlightcards = document.querySelector('.highlighted-resources');
-highlightcards.innerHTML = '<h2>Highlighted Resources</h2>' + highlightedSources;
+highlightcards.innerHTML = highlightedSources;
 
-const socialcards = document.querySelector('.social-resources');
-socialcards.innerHTML = '<h2>Social Resources</h2>' + socialSources;
+const listcards = document.querySelector('.list-resources');
+listcards.innerHTML = listSources;
+
+const socialcards    = document.querySelector('.social-resources');
+socialcards.innerHTML = socialSources;
 
 const mentalcards = document.querySelector('.mental-resources');
-mentalcards.innerHTML = '<h2>Mental Health Resources</h2>' + mentalSources;
+mentalcards.innerHTML = mentalSources;
 
+const medicalcards = document.querySelector('.medical-resources');
+medicalcards.innerHTML = medicalSources;
 
+const legalcards = document.querySelector('.legal-resources');
+legalcards.innerHTML = legalSources;
 
+const hrtcards    = document.querySelector('.hrt-resources');
+hrtcards.innerHTML = hrtSources;
+
+const familycards = document.querySelector('.family-resources');
+familycards.innerHTML = familySources;
+
+const harmreductcards = document.querySelector('.harmreduct-resources');
+medicalcards.innerHTML = medicalSources;
+
+const housingcards = document.querySelector('.housing-resources');
+legalcards.innerHTML = legalSources;
+
+const financialcards    = document.querySelector('.financial-resources');
+hrtcards.innerHTML = hrtSources;
+
+const foodcards = document.querySelector('.family-resources');
+familycards.innerHTML = familySources;
 
 
