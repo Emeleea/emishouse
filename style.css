@@ -239,3 +239,7 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+
+/* Image stuff */ 
+.imageflex { display: flex; }
+.imageflexcontent { margin-left: 10px; margin-top: 0; }

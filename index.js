@@ -4,7 +4,7 @@ const sources = [
     category: 'list',
     title: 'r/transontario Gender Affirming Care Spreadsheet',
     url: 'https://docs.google.com/spreadsheets/d/111o63Tvt20heohe9KtRW_AZPBKOz4kpZ1pb7r0CJpvU/edit?usp=sharing',
-    location: 'Online',
+    location: "",
     description: 'Community maintained effort from r/transontario to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
   },
   {
@@ -12,7 +12,7 @@ const sources = [
     category:'list',
     title: 'Rainbow Health Directory',
     url: 'https://www.rainbowhealthontario.ca/2slgbtq-health/service-provider-directory/',
-    location: 'Online',
+    location: "",
     description: "\"This directory is designed to help you find health and social service providers who have expressed a commitment to providing competent and welcoming care to 2SLGBTQ people in Ontario.\""
   },
   {
@@ -20,7 +20,7 @@ const sources = [
     category: "list",
     title: "pflag",
     url: "https://pflagcanada.ca/chapters/",
-    location: "Chapters across Ontario",
+    location: "",
     description: "pflag is a Canadian organization with chapters all across Ontario. On most of these chapters pages you can find a list of Queer resources that are local to the area." 
   },
   { id: 2,
@@ -41,7 +41,7 @@ const sources = [
     category:'social',
     title: 'Friends of Ruby',
     url: 'https://www.friendsofruby.ca/',
-    location: '489 Queen St E LL01, Toronto, ON M5A 1V1',
+    location: '70 Richmond St E, Toronto, ON M5C 1N8',
     description: 'Friends of Ruby is a drop-in youth centre for 2SLGBTQIA+ individuals, ages 16-29. They provide meals, activities, support groups, free one-on-one counselling, and assistance with housing, healthcare and jobs.',
   },
   { id: 5,
@@ -127,7 +127,7 @@ const sources = [
     category:'mental',
     title: 'Canadian Mental Health Association',
     url: 'https://cmha.ca/',
-    location: 'Multiple locations',
+    location: "",
     description: '',
   },
   {
@@ -135,7 +135,7 @@ const sources = [
     category: "hrt",
     title: "Gender Affirming Clinic | CMHA York Region & South Simcoe",
     url: "https://cmha-yr.on.ca/get-support/gender-affirming-health-clinic-12/",
-    location: "Online",
+    location: "CMHA York Region & South Simcoe",
     description: "Self-referral HRT for those living in the York/South Simcoe area. (12+)"
   },
   {
@@ -143,7 +143,7 @@ const sources = [
     category:'mental',
     title: 'LGBTQ Youthline',
     url: 'https://www.youthline.ca/',
-    location: 'Online',
+    location: "",
     description: 'YouthLine offers free support through our Ontario-wide 2SLGBTQ+ peer-support HelpLine (Taken from website)',
   },
   {
@@ -151,7 +151,7 @@ const sources = [
     category:'mental',
     title: '310-COPE',
     url: 'https://yssn.ca/crisis-services/310-cope/',
-    location: 'Phone',
+    location: "",
     description: '',
   },
   {
@@ -180,10 +180,10 @@ const sources = [
   },
   {
     id: "9f75",
-    category: "social",
+    category: "highlight",
     title: "Toby's Place",
     url: "https://www.rainbowcommunityplaces.org/",
-    location: "36B Prince Arthur Ave, Toronto, ON M5R 1B5",
+    location: "33 East Rd, Scarborough, ON M1N 2Z7",
     description: "\"Toby’s Place is a weekly drop-in after-school program and safe(r) space for 2SLGBTQIA+ youth, ages 13-20, living in Scarborough and the Greater Toronto Area. Question youth and allied friends are also welcome.\""
   },
   {
@@ -191,7 +191,7 @@ const sources = [
     category: "family",
     title: "Gender Creative Kids",
     url: "https://gendercreativekids.com/",
-    location: "Online",
+    location: "",
     description: "\"Gender Creative Kids is a reference community organization that has supported trans, non-binary, and gender-fluid youth's affirmation within their families, schools, and communities since 2013.\""
   },
   {
@@ -245,9 +245,17 @@ description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to L
 {
 id: "f0c9",
 category: "housing",
-title: "YWCA: Emergency Shelters",
+title: "YWCA: Emergency Shelter (Woodlawn)",
 url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter",
-location: "80 Woodlawn Ave E, Toronto, ON M4T 1C1 --- 348 Davenport Road, Toronto On, M5R 1K6",
+location: "80 Woodlawn Ave E, Toronto, ON M4T 1C1",
+description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to LGBTQ+ newcomers who have arrived through a refugee pathway. The space prioritizes trans, gender diverse and non-binary folks, and is the first shelter space exclusively for 2SLGBTQ+ adults in Toronto.\""
+},
+{
+id: "f0c9",
+category: "housing",
+title: "YWCA: Emergency Shelters (Davenport)",
+url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter",
+location: "348 Davenport Road, Toronto On, M5R 1K6",
 description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to LGBTQ+ newcomers who have arrived through a refugee pathway. The space prioritizes trans, gender diverse and non-binary folks, and is the first shelter space exclusively for 2SLGBTQ+ adults in Toronto.\""
 },
 {
@@ -299,7 +307,22 @@ url: "https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-pr
 location: "70 Richmond St E, Toronto, ON M5C 1N8",
 description: "\"Supplemental Groceries Update: Youth can now access groceries directly through the Drop-In—no appointment needed. Groceries are available Monday to Friday from 11:00 AM to 6:00 PM. While our Drop-In Centre no longer serves ready-to-eat meals, we remain committed to supporting food access. If you need help navigating local food banks, please contact us at drop-in@friendsofruby.ca. A huge thank you to @MazonCanada for supporting our Food Access programs!\""
 },
-
+{
+id: "9362",
+category: "hrt",
+title: "SAFER SIX DOWNTOWN",
+url: "https://www.safersix.ca/gender-affirming-hormones",
+location: "26 Dalhousie St, Toronto, ON M5B 2A5",
+description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP. "
+},
+{
+id: "9362",
+category: "hrt",
+title: "SAFER SIX WEST",
+url: "https://www.safersix.ca/gender-affirming-hormones",
+location: "27 Roncesvalles Ave Unit 505, Toronto, ON M6R 3B2",
+description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP. "
+},
 ];
 
 // Blank variables that get filled with sources via for loop
@@ -323,7 +346,7 @@ let cardTemplate = `
       <div class="card-heading">
         <div class="card-title"><a href=${source.url}>${source.title}</a></div>
 
-        <div class="card-location">${source.location}</div>
+        <div class="card-location"><a href="https://maps.google.com/?q=${source.location}">${source.location}</a></div>
       </div>
 
       <div class="card-description">
