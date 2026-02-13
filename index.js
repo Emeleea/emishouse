@@ -323,6 +323,7 @@ url: "https://www.safersix.ca/gender-affirming-hormones",
 location: "27 Roncesvalles Ave Unit 505, Toronto, ON M6R 3B2",
 description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP. "
 },
+
 ];
 
 // Blank variables that get filled with sources via for loop
@@ -350,7 +351,7 @@ let cardTemplate = `
       </div>
 
       <div class="card-description">
-        <p>${source.description}</p>
+        ${source.description}
       </div>
     </div>
     `;
