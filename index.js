@@ -2,10 +2,10 @@ const sources = [
   {
     id: 0, 
     category: 'list',
-    title: 'r/transontario Gender Affirming Care Spreadsheet',
+    title: 'Gender Affirming Care Spreadsheet',
     url: 'https://docs.google.com/spreadsheets/d/111o63Tvt20heohe9KtRW_AZPBKOz4kpZ1pb7r0CJpvU/edit?usp=sharing',
     location: "",
-    description: 'Community maintained effort from r/transontario to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
+    description: 'Community maintained effort from to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!'
   },
   {
     id: 1,
@@ -345,7 +345,7 @@ sources.forEach(function (source) {
 let cardTemplate = `
     <div class="card">
       <div class="card-heading">
-        <div class="card-title"><a href=${source.url}>${source.title}</a></div>
+        <div class="card-title"><a target="_blank" href=${source.url}>${source.title}</a></div>
 
         <div class="card-location"><a href="https://maps.google.com/?q=${source.location}">${source.location}</a></div>
       </div>

@@ -16,7 +16,7 @@ table, th, td {
 } 
 
 body {
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 1.5;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,7 +47,7 @@ body {
 
 .card-description {
   margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .card-title a {
@@ -191,12 +191,13 @@ body {
   }
 }
  header, footer { 
-  padding:25px;
+  padding:1.5rem;
 } 
 
 
 #content {
-  padding:50px; 
+  padding-left:3rem;
+  padding-right:3rem;
 }
 
 .center {
