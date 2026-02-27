@@ -40,10 +40,18 @@ const sources = [
   { id: 4,
     category:'social',
     title: 'Friends of Ruby',
-    url: 'https://www.friendsofruby.ca/',
+    url: 'https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-programming/',
     location: '70 Richmond St E, Toronto, ON M5C 1N8',
     description: 'Friends of Ruby is a drop-in youth centre for 2SLGBTQIA+ individuals, ages 16-29. They provide meals, activities, support groups, free one-on-one counselling, and assistance with housing, healthcare and jobs.',
   },
+	{
+	id: "84d1",
+	category: "social",
+	title: "YOHOMO",
+	url: "https://www.yohomo.ca/",
+	location: "",
+	description: "\"Toronto's online community dedicated to queer arts, culture, and nightlife.\"",
+	},
   { id: 5,
     category:'social',
     title: 'Sherbourne Health Programs',
@@ -180,7 +188,7 @@ const sources = [
   },
   {
     id: "9f75",
-    category: "highlight",
+    category: "social",
     title: "Toby's Place",
     url: "https://www.rainbowcommunityplaces.org/",
     location: "33 East Rd, Scarborough, ON M1N 2Z7",
@@ -290,7 +298,6 @@ url: "https://www.the519.org/programs/project-unlock/",
 location: "519 Church St, Toronto, ON M4Y 2C9",
 description: "\"Project Unlock is an exciting collaboration between The 519 and Scotiabank designed specifically to help LGBTQ+ newcomers build economic resilience in Canada. It is a unique program focused not only on helping you with job readiness but also on supporting your overall sense of wellness as you settle into your new home.\""
 },
-
 {
 id: "4bf9",
 category: "financial",
@@ -323,7 +330,30 @@ url: "https://www.safersix.ca/gender-affirming-hormones",
 location: "27 Roncesvalles Ave Unit 505, Toronto, ON M6R 3B2",
 description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP. "
 },
-
+{
+id: "2709",
+category: "mental",
+title: "Friends of Ruby: Mental Health and Wellness Support",
+url: "https://www.friendsofruby.ca/programs-and-services/mental-health-and-wellness-support/",
+location: "70 Richmond St E, Toronto, ON M5C 1N8",
+description: "\"The counselling team at Friends of Ruby reflects the diversity of the 2SLGBTQIA+ community. Their personal and professional experience informs our comprehensive and collaborative approach to mental health and well-being.\""
+},
+{
+id: "9917",
+category: "mental",
+title: "Friends of Ruby: Case Management",
+url: "https://www.friendsofruby.ca/programs-and-services/case-management/",
+location: "70 Richmond St E, Toronto, ON M5C 1N8",
+description: "\"Friends of Ruby case workers offer practical support to help young people navigate complex systems and break through the barriers holding them back. Think of them like knowledgeable, helpful support with access to useful resources at their fingertips.\""
+},
+{
+id: "40c0",
+category: "highlight",
+title: "George Chuvalo Neighbourhood Centre | Southpaw Program",
+url: "https://www.yohomo.ca/",
+location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
+description: "\"Southpaw is a 5-week workshop program for trans, gender diverse and questioning youth (ages 18-29). \n It is a safe and accessible space for those who are starting out on their journey to connect with each other, build community and learn new skills. Light meals, transportation reimbursement and a small honorarium will be provided. The workshops will focus on community building, movement, wellness, fashion, navigating ID-clinics and employment. \n Fridays from 6:30-8PM, March 13 to April 10.\""
+},
 ];
 
 // Blank variables that get filled with sources via for loop
@@ -430,7 +460,7 @@ let cardTemplate = `
   }
 });
 
-//Selecting the divs in index.html and making them their respective filled variables
+//Selecting the divs in index.html and making them their respective filled divs 
 const highlightcards = document.querySelector('.highlighted-resources');
 highlightcards.innerHTML = highlightedSources;
 
