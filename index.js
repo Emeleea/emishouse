@@ -354,6 +354,15 @@ url: "https://www.yohomo.ca/",
 location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
 description: "\"Southpaw is a 5-week workshop program for trans, gender diverse and questioning youth (ages 18-29). \n It is a safe and accessible space for those who are starting out on their journey to connect with each other, build community and learn new skills. Light meals, transportation reimbursement and a small honorarium will be provided. The workshops will focus on community building, movement, wellness, fashion, navigating ID-clinics and employment. \n Fridays from 6:30-8PM, March 13 to April 10.\""
 },
+
+{
+id: "2156",
+category: "highlight",
+title: "George Chuvalo Neighbourhood Centre Fundraiser",
+url: "https://www.zeffy.com/en-CA/donation-form/gcnc-drop-in-fundraiser",
+location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
+description: "\"2SLGBTQ+ Drop-In Tuesdays and Trans/Gender Diverse Drop-In Wednesdays at the GCNC: A safe, twice weekly space for youth 12-18 to be themselves, wherever they are in their journey. Facilitating connection, support, and community; we aim to build youth resilience and self-expression through skill-building, sharing resources, peer engagement, and affirming workshops that empower individuals to thrive. \n Your contribution helps us sustain programming that supports at-risk youth of all genders and sexual identities at a critical stage of their personal and social development.\""
+},
 ];
 
 // Blank variables that get filled with sources via for loop
