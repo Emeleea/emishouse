@@ -348,7 +348,7 @@ description: "\"Friends of Ruby case workers offer practical support to help you
 },
 {
 id: "40c0",
-category: "highlight",
+category: "social",
 title: "George Chuvalo Neighbourhood Centre | Southpaw Program",
 url: "https://www.yohomo.ca/",
 location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
