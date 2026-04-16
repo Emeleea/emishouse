@@ -1,7 +1,7 @@
 const sources = [
   {
     id: 0, 
-    category: 'list',
+    category: ['list'],
     title: 'Gender Affirming Care Spreadsheet',
     url: 'https://docs.google.com/spreadsheets/d/111o63Tvt20heohe9KtRW_AZPBKOz4kpZ1pb7r0CJpvU/edit?usp=sharing',
     location: "",
@@ -9,7 +9,7 @@ const sources = [
   },
   {
     id: 1,
-    category:'list',
+    category:['list'],
     title: 'Rainbow Health Directory',
     url: 'https://www.rainbowhealthontario.ca/2slgbtq-health/service-provider-directory/',
     location: "",
@@ -17,28 +17,28 @@ const sources = [
   },
   {
     id: "05c2",
-    category: "list",
+    category: ["list"],
     title: "pflag",
     url: "https://pflagcanada.ca/chapters/",
     location: "",
     description: "pflag is a Canadian organization with chapters all across Ontario. On most of these chapters pages you can find a list of Queer resources that are local to the area." 
   },
   { id: 2,
-    category:'legal',
+    category:['legal'],
     title: 'HQ Toronto: Trans I.D. Legal Clinic',
     url: 'https://hqtoronto.ca/transidclinic',
     location: '790 Bay St. #820, Toronto, ON M5G 1N8',
     description: 'On the last monday of each month, HQ Toronto and Kenet Family Law host a free monthly Trans ID clinic for 2STNB individuals. They will help cover costs of the forms, and the forms themselves.',
   },
   { id: 3,
-    category:'social',
+    category:['social'],
     title: 'The 519',
     url: 'https://www.the519.org/',
     location: '519 Church Street, Toronto, ON M4Y 2C9',
     description: 'Major LGBTQ hub in the center of the village. Services and supports in many different areas. Financial, newcomers to Canada, housing, family and children, health services, art and culture, and social events that happen multiple times a week!',
   },
   { id: 4,
-    category:'social',
+    category:['social'],
     title: 'Friends of Ruby',
     url: 'https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-programming/',
     location: '70 Richmond St E, Toronto, ON M5C 1N8',
@@ -46,14 +46,14 @@ const sources = [
   },
 	{
 	id: "84d1",
-	category: "social",
+	category: ["social"],
 	title: "YOHOMO",
 	url: "https://www.yohomo.ca/",
 	location: "",
 	description: "\"Toronto's online community dedicated to queer arts, culture, and nightlife.\"",
 	},
   { id: 5,
-    category:'social',
+    category:['social'],
     title: 'Sherbourne Health Programs',
     url: 'https://sherbourne.on.ca/community-health-programs/community-groups/',
     location: '333 Sherbourne St, Toronto, ON M5A 2S5',
@@ -61,7 +61,7 @@ const sources = [
   },
   {
     id: 6, 
-    category:'social',
+    category:['social'],
     title: 'Gilbert Centre',
     url: 'https://www.gilbertcentre.ca/',
     location: '80 Bradford St Suite 525, Barrie, ON L4N 3A8',
@@ -69,7 +69,7 @@ const sources = [
   },
   {
     id: 7, 
-    category:'social',
+    category:['social'],
     title: 'TransQ',
     url: 'https://transq.ca/',
     location: '80 Bradford St Suite 525, Barrie, ON L4N 3A8',
@@ -77,7 +77,7 @@ const sources = [
   },
   {
     id: 8, 
-    category:'social',
+    category:['social'],
     title: 'Simcoe Pride',
     url: 'https://www.simcoepride.com/',
     location: 'Simcoe County',
@@ -85,14 +85,14 @@ const sources = [
   },
   {
     id: "b6c6",
-    category: "family",
+    category: ["family"],
     title: "Families in TRANSition",
     url: "https://ctys.org/services-programs/pride-prejudice/families-in-transition-caregiver-group/",
     location: "65 Wellesley St E #300, Toronto, ON M4Y 2E3",
     description: "Close group for parents/caregivers of 2LGBTQIA+ youth (ages 13-24) who have recently learned of their child's identity and wish for more tools and information on how to support them."  },
   {
     id: 10, 
-    category:'social',
+    category:['social'],
     title: 'Gender Diverse Indigenous Mentor Program',
     url: 'https://www.youthline.ca/support_near_you/gender-diverse-indigenous-mentor-nogojiwanong-friendship-centre/',
     location: '580 Cameron St, Peterborough, ON K9J 3Z5',
@@ -100,7 +100,7 @@ const sources = [
   },
   {
     id: 11, 
-    category:'social',
+    category:['social'],
     title: 'Sherbourne Health: Supporting Our Youth (SOY)',
     url: 'https://sherbourne.on.ca/supporting-our-youth-soy/',
     location: '333 Sherbourne St, Toronto, ON M5A 2SS',
@@ -108,7 +108,7 @@ const sources = [
   },
   {
     id: 12, 
-    category:'mental',
+    category:['mental'],
     title: 'Beyond Trauma',
     url: 'https://beyondtrc.com/',
     location: '15 Gallie Ct Suite 110, Barrie, ON L4M 0G6',
@@ -116,7 +116,7 @@ const sources = [
   },
   {
     id: 14, 
-    category:'mental',
+    category:['mental'],
     title: 'Bounce Back',
     url: 'https://bouncebackontario.ca/',
     location: '',
@@ -124,7 +124,7 @@ const sources = [
   },
   {
     id: 15, 
-    category:'mental',
+    category:['mental'],
     title: 'Gilbert Centre',
     url: 'https://www.gilbertcentre.ca/',
     location: '80 Bradford St Suite 525, Barrie, ON L4N 3A8',
@@ -132,7 +132,7 @@ const sources = [
   },
   {
     id: 17, 
-    category:'mental',
+    category:['mental'],
     title: 'Canadian Mental Health Association',
     url: 'https://cmha.ca/',
     location: "",
@@ -140,7 +140,7 @@ const sources = [
   },
   {
     id: "aa28",
-    category: "hrt",
+    category: ["hrt"],
     title: "Gender Affirming Clinic | CMHA York Region & South Simcoe",
     url: "https://cmha-yr.on.ca/get-support/gender-affirming-health-clinic-12/",
     location: "CMHA York Region & South Simcoe",
@@ -148,7 +148,7 @@ const sources = [
   },
   {
     id: 18, 
-    category:'mental',
+    category:['mental'],
     title: 'LGBTQ Youthline',
     url: 'https://www.youthline.ca/',
     location: "",
@@ -156,7 +156,7 @@ const sources = [
   },
   {
     id: 19, 
-    category:'mental',
+    category:['mental'],
     title: '310-COPE',
     url: 'https://yssn.ca/crisis-services/310-cope/',
     location: "",
@@ -164,7 +164,7 @@ const sources = [
   },
   {
     id: "b3bf",
-    category: "social",
+    category: ["social"],
     title: "COMET",
     url: "https://www.fairlawnchurch.ca/events/comet/2025-12-09/",
     location: "28 Fairlawn Ave, Toronto, ON M5M 1S7",
@@ -172,7 +172,7 @@ const sources = [
   },
   {
     id: "c7a0",
-    category: "social",
+    category: ["social"],
     title: "George Chuvalo Neighbourhood Centre",
     url: "https://www.conccommunity.org/george-chuvalo/",
     location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
@@ -180,7 +180,7 @@ const sources = [
   },
   {
     id: "9673",
-    category: "medical",
+    category: ["medical"],
     title: "Trauma Therapy Program | Women's College Hospital ",
     url: "https://www.womenscollegehospital.ca/care-programs/mental-health/trauma-therapy-program/",
     location: "76 Grenville Street, Toronto, Ontario M5S 1B2",
@@ -188,7 +188,7 @@ const sources = [
   },
   {
     id: "9f75",
-    category: "social",
+    category: ["social"],
     title: "Toby's Place",
     url: "https://www.rainbowcommunityplaces.org/",
     location: "33 East Rd, Scarborough, ON M1N 2Z7",
@@ -196,7 +196,7 @@ const sources = [
   },
   {
     id: "7da3",
-    category: "family",
+    category: ["family"],
     title: "Gender Creative Kids",
     url: "https://gendercreativekids.com/",
     location: "",
@@ -204,7 +204,7 @@ const sources = [
   },
   {
     id: "db0f",
-    category: "family",
+    category: ["family"],
     title: "Gilbert Centre: Family & Youth",
     url: "https://www.gilbertcentre.ca/family-youth",
     location: "80 Bradford St Suite 525, Barrie, ON L4N 3A8",
@@ -212,7 +212,7 @@ const sources = [
   },
   {
     id: "1fde",
-    category: "family",
+    category: ["family"],
     title: "Sherbourne Health: 2SLGBTQ Family Resources",
     url: "https://sherbourne.on.ca/community-health-programs/2slgbtq-family-resources/",
     location: "333 Sherbourne St, Toronto, ON M5A 2S5",
@@ -220,7 +220,7 @@ const sources = [
   },
 {
   id: "a824",
-  category: "harmreduct",
+  category: ["harmreduct"],
   title: "Pieces to Pathways",
   url: "https://breakawaycs.ca/programs/pieces-to-pathways/",
   location: "21 Strickland Ave, Toronto, ON M6K 3E6",
@@ -228,7 +228,7 @@ const sources = [
 },
 {
 id: "7c0c",
-category: "harmreduct",
+category: ["harmreduct"],
 title: "Regent Park Community Health Care: Harm Reduction Services & Sex Worker Drop In",
 url: "https://breakawaycs.ca/programs/pieces-to-pathways/",
 location: "465 Dundas St E 2nd Floor, Toronto, ON M5A 2B2",
@@ -236,7 +236,7 @@ description: "\"These workshops are conducted by Harm Reduction Workers from RPC
 },
 {
 id: "9388",
-category: "harmreduct",
+category: ["harmreduct"],
 title: "HIV Legal Network: Connection, Care, Community – Harm Reduction for GBT2Q People who Use Drugs",
 url: "https://www.hivlegalnetwork.ca/site/connection-care-community-harm-reduction-for-gbt2q-people-who-use-drugs/?lang=en",
 location: "1240 Bay St. Suite 600, Toronto, ON M5R 2A7",
@@ -244,7 +244,7 @@ description: "An article from the HIV Legal Network which outlines a Summary Rep
 },
 {
 id: "15b0",
-category: "housing",
+category: ["housing"],
 title: "The 519: Housing Support Services",
 url: "https://www.the519.org/programs/housing-services//",
 location: "519 Church St, Toronto, ON M4Y 2C9",
@@ -252,7 +252,7 @@ description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to L
 },
 {
 id: "f0c9",
-category: "housing",
+category: ["housing"],
 title: "YWCA: Emergency Shelter (Woodlawn)",
 url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter",
 location: "80 Woodlawn Ave E, Toronto, ON M4T 1C1",
@@ -260,7 +260,7 @@ description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to L
 },
 {
 id: "f0c9",
-category: "housing",
+category: ["housing"],
 title: "YWCA: Emergency Shelters (Davenport)",
 url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter",
 location: "348 Davenport Road, Toronto On, M5R 1K6",
@@ -268,7 +268,7 @@ description: "\"In 2022, The 519 and Homes First opened a shelter dedicated to L
 },
 {
 id: "c449",
-category: "housing",
+category: ["housing"],
 title: "Fred Victor",
 url: "https://www.fredvictor.org",
 location: "45 Queen St E, Toronto, ON M5C 1S1",
@@ -276,7 +276,7 @@ description: "\"Fred Victor is a social service charitable organization that fos
 },
 {
 id: "bb73",
-category: "housing",
+category: ["housing"],
 title: "Friends of Ruby: Transitional Housing",
 url: "https://www.friendsofruby.ca/transitional-housing/",
 location: "70 Richmond St E, Toronto, ON M5C 1N8",
@@ -284,7 +284,7 @@ description: "\"A welcoming space for 2SLGBTQIA+ youth. We support two-spirit, l
 },
 {
 id: "5b70",
-category: "financial",
+category: ["financial"],
 title: "The 519: Sasha Hashi Bursary",
 url: "https://www.the519.org/programs/the-519-sasha-hashi-bursary/",
 location: "519 Church St, Toronto, ON M4Y 2C9",
@@ -292,7 +292,7 @@ description: "\"The 519 has set up a scholarship/bursary at Toronto Metropolitan
 },
 {
 id: "5caf",
-category: "financial",
+category: ["financial"],
 title: "The 519: Project Unlock",
 url: "https://www.the519.org/programs/project-unlock/",
 location: "519 Church St, Toronto, ON M4Y 2C9",
@@ -300,7 +300,7 @@ description: "\"Project Unlock is an exciting collaboration between The 519 and 
 },
 {
 id: "4bf9",
-category: "financial",
+category: ["financial"],
 title: "The 519: Tax Clinic",
 url: "https://www.the519.org/programs/tax-clinic/",
 location: "519 Church St, Toronto, ON M4Y 2C9",
@@ -308,7 +308,7 @@ description: "Opens again early March 2026"
 },
 {
 id: "3903",
-category: "food",
+category: ["food"],
 title: "Friends of Ruby: Grocery Day",
 url: "https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-programming/",
 location: "70 Richmond St E, Toronto, ON M5C 1N8",
@@ -316,7 +316,7 @@ description: "\"Supplemental Groceries Update: Youth can now access groceries di
 },
 {
 id: "9362",
-category: "hrt",
+category: ["hrt"],
 title: "SAFER SIX DOWNTOWN",
 url: "https://www.safersix.ca/gender-affirming-hormones",
 location: "26 Dalhousie St, Toronto, ON M5B 2A5",
@@ -324,7 +324,7 @@ description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed 
 },
 {
 id: "9362",
-category: "hrt",
+category: ["hrt"],
 title: "SAFER SIX WEST",
 url: "https://www.safersix.ca/gender-affirming-hormones",
 location: "27 Roncesvalles Ave Unit 505, Toronto, ON M6R 3B2",
@@ -332,7 +332,7 @@ description: "Toronto's Inclusive Health Clinic'. One of the only self-Informed 
 },
 {
 id: "2709",
-category: "mental",
+category: ["mental"],
 title: "Friends of Ruby: Mental Health and Wellness Support",
 url: "https://www.friendsofruby.ca/programs-and-services/mental-health-and-wellness-support/",
 location: "70 Richmond St E, Toronto, ON M5C 1N8",
@@ -340,7 +340,7 @@ description: "\"The counselling team at Friends of Ruby reflects the diversity o
 },
 {
 id: "9917",
-category: "mental",
+category: ["mental"],
 title: "Friends of Ruby: Case Management",
 url: "https://www.friendsofruby.ca/programs-and-services/case-management/",
 location: "70 Richmond St E, Toronto, ON M5C 1N8",
@@ -348,21 +348,20 @@ description: "\"Friends of Ruby case workers offer practical support to help you
 },
 {
 id: "40c0",
-category: "social",
+category: ["social"],
 title: "George Chuvalo Neighbourhood Centre | Southpaw Program",
 url: "https://www.yohomo.ca/",
 location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
 description: "\"Southpaw is a 5-week workshop program for trans, gender diverse and questioning youth (ages 18-29). \n It is a safe and accessible space for those who are starting out on their journey to connect with each other, build community and learn new skills. Light meals, transportation reimbursement and a small honorarium will be provided. The workshops will focus on community building, movement, wellness, fashion, navigating ID-clinics and employment. \n Fridays from 6:30-8PM, March 13 to April 10.\""
 },
-
 {
 id: "2156",
-category: "highlight",
+category: ["highlight"],
 title: "George Chuvalo Neighbourhood Centre Fundraiser",
 url: "https://www.zeffy.com/en-CA/donation-form/gcnc-drop-in-fundraiser",
 location: "50 Sousa Mendes St, Toronto, ON M6P 3Z5",
 description: "\"2SLGBTQ+ Drop-In Tuesdays and Trans/Gender Diverse Drop-In Wednesdays at the GCNC: A safe, twice weekly space for youth 12-18 to be themselves, wherever they are in their journey. Facilitating connection, support, and community; we aim to build youth resilience and self-expression through skill-building, sharing resources, peer engagement, and affirming workshops that empower individuals to thrive. \n Your contribution helps us sustain programming that supports at-risk youth of all genders and sexual identities at a critical stage of their personal and social development.\""
-},
+}
 ];
 
 // Blank variables that get filled with sources via for loop
@@ -378,6 +377,18 @@ let harmreductSources = ``;
 let housingSources = ``;
 let financialSources = ``;
 let foodSources = ``;
+
+let torontoS = ``;
+let durhamS = ``;
+let yorkS = ``;
+let peelS = ``;
+let haltonS = ``;
+let barrieS = ``;
+let hamiltonS = ``;
+let niagaraS = ``;
+let kwS = ``;
+let londonS = ``;
+let windsorS = ``;
 
 // The for loop in question 
 sources.forEach(function (source) {
@@ -395,83 +406,101 @@ let cardTemplate = `
     </div>
     `;
 
-  if (source.category === 'highlight') {
+  if (source.category.includes("highlight") ) {
   highlightedSources=
     highlightedSources+
     cardTemplate; 
 
   }
-  if (source.category === 'list') {
+  if (source.category.includes("list") ) {
   listSources=
     listSources+
     cardTemplate; 
 
   }
-  if (source.category === 'social') {
+  if (source.category.includes("social") ) {
   socialSources =
     socialSources+
     cardTemplate;
 
   }
-  if (source.category === 'mental') {
+  if (source.category.includes("mental") ) {
   mentalSources =
     mentalSources+
     cardTemplate;
 
   }
-  if (source.category === 'medical') {
+  if (source.category.includes("medical") ) {
   medicalSources=
     medicalSources+
     cardTemplate; 
 
   }
-  if (source.category === 'legal') {
+  if (source.category.includes("legal") ) {
   legalSources=
     legalSources+
     cardTemplate; 
 
   }
-  if (source.category === 'hrt') {
+  if (source.category.includes("hrt") ) {
   hrtSources =
     hrtSources+
     cardTemplate;
 
   }
-  if (source.category === 'family') {
+  if (source.category.includes("family") ) {
   familySources =
     familySources+
     cardTemplate;
 
   }
-  if (source.category === 'harmreduct') {
+  if (source.category.includes("harmreduct") ) {
   harmreductSources =
     harmreductSources+
     cardTemplate;
 
   }
-  if (source.category === 'housing') {
+  if (source.category.includes("housing") ) {
   housingSources =
     housingSources+
     cardTemplate;
 
   }
-  if (source.category === 'financial') {
+  if (source.category.includes("financial") ) {
   financialSources =
     financialSources+
     cardTemplate;
 
   }
-  if (source.category === 'food') {
+  if (source.category.includes("food") ) {
   foodSources =
     foodSources+
     cardTemplate;
 
   }
+  /* if (source.location.includes("Toronto")) {
+  torontoS =
+    torontoS+
+    cardTemplate;
+  }
+  /*{
+  if (source.location.includes("Durham")) {
+  durhamS =
+    durhamS+
+    cardTemplate;
+  }
+  */
 });
 
-//Selecting the divs in index.html and making them their respective filled divs 
+//Selecting the divs in index.html and making them their respective filled divs
+
 const highlightcards = document.querySelector('.highlighted-resources');
 highlightcards.innerHTML = highlightedSources;
+
+// Anatomy is basically "constant name of set of cards is equal to wherever the
+// div (.X-resources) occurs in the html.
+//
+// Once that is found, make that divs html equal to the Source list. 
 
 const listcards = document.querySelector('.list-resources');
 listcards.innerHTML = listSources;
@@ -506,4 +535,37 @@ financialcards.innerHTML = financialSources;
 const foodcards = document.querySelector('.food-resources');
 foodcards.innerHTML = foodSources;
 
+//Regions
 
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+/* const durhamcards = document.querySelector('.durham');
+durhamcards.innerHTML = durhamS;
+
+const yorkcards = document.querySelector('.york');
+yorkcards.innerHTML = yorkS;
+
+const peelcards = document.querySelector('.peel');
+peelcards.innerHTML = peelS;
+
+const haltoncards = document.querySelector('.halton');
+haltoncards.innerHTML = haltonS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS;
+
+const torontocards = document.querySelector('.toronto');
+torontocards.innerHTML = torontoS; */

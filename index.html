@@ -4,45 +4,65 @@
     <!-- Page setup -->
     <meta charset="utf-8">
     <title>Emi's House</title>
-    <meta name="description" content="A living resource for trans/non-binary folx in the GTA and beyond">
+    <meta name="description" content="A living resource for trans/non-binary folks in the GTA and beyond">
     <meta name="author" content="Emilia House H. She uses she/her pronouns.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
     <link rel="icon" type="image/png" href="favicon.png">
   
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+     rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"
+    type="text/css" />
    
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-  </head>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <!-- bootstrap -->
+    <!-- <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  </head> 
   
-  <body>
-    
+  <body> 
     <header id="header">
-      <img src="logo.png" class="center" width=auto height="275">
+      <a href="https://emishouse.ca"><img src="logo.png" class="center" width=auto height="275"></a>
 
-      <h1><center>A living resource for trans/non-binary folx in the GTA and beyond</center></h1>
+      <h1><center>A living resource for trans/non-binary folks in the GTA and beyond</center></h1>
       <p><center>Press 'B' at any time to leave this website</center></p> 
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
-        <li><a href="#home">Resource List</a></li>
-        <li><a href="#hrt-postsec">HRT at Colleges/Universities</a></li>
-        <li><a href="#bookmarks">Emi's Bookmarks</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><div class ="dropdown">
+          <a href="#resources">Resource Lists</a>
+          <div class="dropdown-content">
+            <a href="#toronto">Toronto</a>
+            <a href="#durham">Durham</a>
+            <a href="#york">York</a>
+            <a href="#peel">Peel</a>
+            <a href="#halton">Halton</a>
+            <a href="#barrie">Barrie</a>
+            <a href="#hamilton">Hamilton</a>
+            <a href="#niagara">Niagara</a>
+            <a href="#kw">Kitchener/Waterloo</a>
+            <a href="#london">London</a>
+            <a href="#windsor">Windsor</a>
+            <div>
+        </div></li>
+          <li><a href="#hrt-postsec">HRT at Colleges/Universities</a></li>
+          <li><a href="#bookmarks">Emi's Bookmarks</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         
         <li><a target="_blank" href=https://forms.gle/BgrYtC9aTBFfmKp59>Resource Submission Form</a></li>
       </ul>
     </header>
-    
+   
+    <!-- Escape script -->
     <script>
       document.body.addEventListener("keydown", (ev) => { 
         if (ev.key == "b") {
@@ -57,77 +77,87 @@
         <div id="content"> 
           <div id="home" class="content-region hide">
 
-	    <h4><i>Have suggestions for resources? Submit them <a target="_blank" href=https://forms.gle/BgrYtC9aTBFfmKp59>here!</a></i></h4>
-            <h1>Resource List</h1>
+            <h1>Welcome to Emi's House</h1>
+                            
 
-            <!-- Actual start of the webpage-->
+          </div>
+            <div id="resources" class="content-region hide">
+	           <h4><i>Have suggestions for resources? Submit them <a target="_blank" href=https://forms.gle/BgrYtC9aTBFfmKp59>here!</a></i></h4>
+              <h1>Resource List</h1>
+                <!-- Actual start of the webpage-->
 
-	    <div>
-	      <h2>Highlighted Resources</h2>
-              <p>Resources that have been added recently and should be checked out!</p>
-              <div class="highlighted-resources"></div>
-            </div>
+              <div>
+ 	              <h2>Highlighted Resources</h2>
+                <p>Resources that have been added recently and should be checked out!</p>
+                <div class="highlighted-resources"></div>
+              </div>
 
-            <div>
-              <h2>Existing Resource Lists</h2>
-              <h4></h4>
-              <div class="list-resources"></div>
-            </div>
+              <div>
+                <h2>Existing Resource Lists</h2>
+                <h4></h4>
+                <div class="list-resources"></div>
+              </div>
 
-            <div>
-              <h2>Social Spaces</h2>
-              <h4></h4>
-              <div class="social-resources"></div>
-            </div>
+              <div>
+                <h2>Social Spaces</h2>
+                <h4></h4>
+                <div class="social-resources"></div>
+              </div>
 
-            <div>
-              <h2>Mental Health Support</h2>
-              <h4></h4>
-              <div class="mental-resources"></div>
-            </div>
+              <div>
+                <h2>Mental Health Support</h2>
+                <h4></h4>
+                <div class="mental-resources"></div>
+              </div>
 
-            <div>
-              <h2>Medical Resources</h2>
-              <div class="medical-resources"></div>
-            </div>
+              <div>
+                <h2>Medical Resources</h2>
+                <div class="medical-resources"></div>
+              </div>
 
-            <div>
-              <h2>Legal Aid</h2>
-              <div class="legal-resources"></div>
-            </div>
+              <div>
+                <h2>Legal Aid</h2>
+                <div class="legal-resources"></div>
+              </div>
 
-            <div>
-              <h2>HRT Support</h2>
-              <h4></h4>
-              <div class="hrt-resources"></div>
-            </div>
+              <div>
+                <h2>HRT Support</h2>
+                <h4></h4>
+                <div class="hrt-resources"></div>
+              </div>
 
-            <div>
-              <h2>Family Resources</h2>
-              <div class="family-resources"></div>
-            </div>
+              <div>
+                <h2>Family Resources</h2>
+                <div class="family-resources"></div>
+              </div>
 
-            <div>
-              <h2>Harm Reduction and Addiction Resources</h2>
-              <div class="harmreduct-resources"></div>
-            </div>
+              <div>
+                <h2>Harm Reduction and Addiction Resources</h2>
+                <div class="harmreduct-resources"></div>
+              </div>
 
-            <div>
-              <h2>Housing Resources</h2>
-              <div class="housing-resources"></div>
-            </div>
+              <div>
+                <h2>Housing Resources</h2>
+                <div class="housing-resources"></div>
+              </div>
 
-            <div>
-              <h2>Financial Resources</h2>
-              <div class="financial-resources"></div>
-            </div>
+              <div>
+                <h2>Financial Resources</h2>
+                <div class="financial-resources"></div>
+              </div>
 
-            <div>
-              <h2>Food Resources</h2>
-              <div class="food-resources"></div>
-            </div>
+              <div>
+                <h2>Food Resources</h2>
+                <div class="food-resources"></div>
+              </div>
 
-            <script src="index.js"></script>
+              <!--Resources by City-->
+              <div>
+                <h2>Toronto Resources</h2>
+                <div class="toronto"></div>
+              </div>
+
+              <script src="index.js"></script>
 
           </div>
 
@@ -284,6 +314,5 @@ Guide – Ontario</a></li>
     
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>
