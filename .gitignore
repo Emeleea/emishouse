@@ -1,0 +1,4 @@
+.vscode
+.well-known
+info.json
+deno.lock
