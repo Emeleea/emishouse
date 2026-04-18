@@ -55,7 +55,6 @@
             </div>
           </div>
         </li>
-        <li><a href="#hrt-postsec">HRT at Colleges/Universities</a></li>
         <li><a href="#bookmarks">Emi's Bookmarks</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -86,34 +85,58 @@
 	           <h4><i>Have suggestions for resources? Submit them <a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59">here!</a></i></h4>
               <h1>Resource List</h1>
                 <!-- Actual start of the webpage-->
-
+              <h3>Resource type</h3>
               <form id="resource-filter-form">
-                <input type="radio" name="item" id="item-any" value="any" checked>Any</input>
-                <input type="radio" name="item" id="item-highlight" value="highlight">Highlight</input>
-                <input type="radio" name="item" id="item-list" value="list">List</input>
-                <input type="radio" name="item" id="item-social" value="social">Social</input>
-                <input type="radio" name="item" id="item-mental" value="mental">Mental</input>
-                <input type="radio" name="item" id="item-medical" value="medical">Medical</input>
-                <input type="radio" name="item" id="item-legal" value="legal">Legal</input>
-                <input type="radio" name="item" id="item-hrt" value="hrt">HRT</input>
-                <input type="radio" name="item" id="item-family" value="family">Family</input>
-                <input type="radio" name="item" id="item-harmreduct" value="harmreduct">Harm Reduction</input>
-                <input type="radio" name="item" id="item-housing" value="housing">Housing</input>
-                <input type="radio" name="item" id="item-financial" value="financial">Financial</input>
-                <input type="radio" name="item" id="item-food" value="food">Food</input>
+                <input type="radio" name="item" id="item-any" value="any" checked></input>
+                <label for="item-any">Any</label>
+                <input type="radio" name="item" id="item-highlight" value="highlight"></input>
+                <label for="item-highlight">Highlight</label>
+                <input type="radio" name="item" id="item-list" value="list"></input>
+                <label for="item-list">List</label>
+                <input type="radio" name="item" id="item-social" value="social"></input>
+                <label for="item-social">Social</label>
+                <input type="radio" name="item" id="item-mental" value="mental"></input>
+                <label for="item-mental">Mental</label>
+                <input type="radio" name="item" id="item-medical" value="medical"></input>
+                <label for="item-medical">Medical</label>
+                <input type="radio" name="item" id="item-legal" value="legal"></input>
+                <label for="item-legal">Legal</label>
+                <input type="radio" name="item" id="item-hrt" value="hrt"></input>
+                <label for="item-hrt">HRT</label>
+                <input type="radio" name="item" id="item-family" value="family"></input>
+                <label for="item-family">Family</label>
+                <input type="radio" name="item" id="item-harmreduct" value="harmreduct"></input>
+                <label for="item-harmreduct">Harm Reduction</label>
+                <input type="radio" name="item" id="item-housing" value="housing"></input>
+                <label for="item-housing">Housing</label>
+                <input type="radio" name="item" id="item-financial" value="financial"></input>
+                <label for="item-financial">Financial</label>
+                <input type="radio" name="item" id="item-food" value="food"></input>
+                <label for="item-food">Food</label>
               </form>
-  
+              <h3>Resource location</h3>
               <form id="location-filter-form">
-                <input type="radio" name="item" id="item-any" value="any" checked>Any</input>
-                <input type="radio" name="item" id="item-toronto" value="toronto">Toronto</input>
-                <input type="radio" name="item" id="item-barrie" value="barrie">Barrie</input>
-                <input type="radio" name="item" id="item-simcoe" value="simcoe">Simcoe</input>
-                <input type="radio" name="item" id="item-ottawa" value="ottawa">Ottawa</input>
-                <input type="radio" name="item" id="item-windsor" value="windsor">Windsor</input>
-                <input type="radio" name="item" id="item-kw" value="kw">KW</input>
+                <input type="radio" name="item" id="item-anyl" value="any" checked></input>
+                <label for="item-anyl">Any</label>
+                <input type="radio" name="item" id="item-toronto" value="toronto"></input>
+                <label for="item-toronto">Toronto</label>
+                <input type="radio" name="item" id="item-barrie" value="barrie"></input>               
+                <label for="item-barrie">Barrie</label>
+                <input type="radio" name="item" id="item-simcoe" value="simcoe"></input>
+                <label for="item-simcoe">Simcoe</label>
+                <input type="radio" name="item" id="item-ottawa" value="ottawa"></input>
+                <label for="item-ottawa">Ottawa</label>
+                <input type="radio" name="item" id="item-windsor" value="windsor"></input>
+                <label for="item-windsor">Windsor</label>
+                <input type="radio" name="item" id="item-kw" value="kw"></input>
+                <label for="item-kw">Kitchener/Waterloo</label>
+                <input type="radio" name="item" id="item-kingston" value="kingston"></input>
+                <label for="item-kingston">Kingston</label>
+                <input type="radio" name="item" id="item-pb" value="pb"></input>
+                <label for="item-pb">Peterborough</label>               
               </form>
-  
-              <template id="item-template">
+              <br />
+                <template id="item-template">
                 <div class="card">
                   <div class="card-title">
                     <a class="card-title-link"></a>
@@ -126,106 +149,6 @@
               <div id="item-container"></div>
 
               <script src="index.js"></script>
-          </div>
-
-          <div id="hrt-postsec" class="content-region hide">
-            <h1>Gender-Affirming Care at Colleges/Universities</h1>
-              <p>Below is a list of Ontario's post-sec institutions that offer on-campus Gender-Affirming Care and the relevant information:</p>
-              
-              <table>
-                <tr> 
-                  <th>Name</th>
-                  <th>Relevant Resources</th>
-                </tr>
-                <tr>
-                  <td>Brock University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://brocku.ca/health-wellness-accessibility/student-health-services/our-services/#1723062506598-c9c0a79f-f7a0"><i>Gender Affirming Care</i></a></li>
-                      <li><a target="_blank" href="https://brocku.ca/human-rights/student-justice-centre/2slgbtqia-resources/"><i>2SLGBTQIA+ Resources at Brock</i></a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Carleton University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://www.rainbowhealthontario.ca/service-provider-directory/carleton-university-health-and-counselling-services/"><i>Dr. Anna York-Lyon</i></a></li>
-                      <li><a target="_blank" href="https://www.cusaonline.ca/service-centres/gsrc/"><i>Gender and Sexuality Resource Centre</i></a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                <tr>
-                  <td>McMaster University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://wellness.mcmaster.ca/exploring-gender-identity-navigating-a-medical-transition/"><i>Exploring Gender Identity: Navigating a Medical Transition</i></a></li>
-                      <li><a target="_blank" href="https://wellness.mcmaster.ca/program/gender-affirming-care/"><i>Gender Affirming Care - Student Wellness Centre</i></a></li>
-                      <li><a target="_blank" href="https://wellness.mcmaster.ca/resources/2slgbtqia-resources/"><i>2SLGBTQIA+ Resources</i></a></li>
-                    </ul>
-                  </td>
-                <tr>
-                  <td>Queen's University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://www.queensu.ca/studentwellness/medical/provided"
-                        -services><i>Provided Student Medical Services</i> (See 'Transgender care')</a></li>
-                      <li><a target="_blank" href="https://www.queensu.ca/inclusive/resources/gender"
-                        -and-sexuality><i>Gender and Sexuality | Inclusive Queen's</i></a></li>
-                      <li><a target="_blank" href="https://www.queensu.ca/quaqe/resources"
-                        ><i>Queen's U Association for Queer Employees </i>(General resources for queer students)</a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Trent University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://www.trentu.ca/wellness/counselling/mental-health-resources/lgbtqqia2s-supports"><i>2SLGBTQIA+ - Student Wellness Centre</i></a></li>
-                      <li><a target="_blank" href="https://www.trentu.ca/wellness/sites/trentu.ca.wellness/files/2025-09/gender_affirming_care_at_trent_student_health_services.pdf"><i>Gender Affirming Care at Trent Student Health Services (pdf)</i></a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>University of Toronto</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://lgbtout.sa.utoronto.ca/resources"
-                        -list><i>LGBTQ+ Resources List - LGBTOUT - University of Toronto</i> (Student Ran)</a></li>
-                      <li><a target="_blank" href="https://sgdo.utoronto.ca/resources/"
-                        ><i>Resources - Sexual & Gender Diversity Office</i></a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Waterloo University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://uwaterloo.ca/students/health-and-well-being/primary-care-appointments/gender-affirming-care"><i>Gender Affirming Care | Current Students</i></a></li>
-                      <li><a target="_blank" href="https://sgdo.utoronto.ca/resources/"><i>Glow Centre for Sexual and Gender Diversity </i>(Student Ran)</a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Western University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://www.uwo.ca/health//psych/2SLGBTQIA"
-                        +.html><i>2SLGBTQIA+ Supports - Western University</i> (See 'Trans Care Support' under Western Uni Resources for HRT info)</a></li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Wilfred Laurier University</td>
-                  <td>
-                    <ul>
-                      <li><a target="_blank" href="https://students.wlu.ca/support-and-wellness/student-wellness-centre/assets/resources/lgbtq-care-wellness-centre.html"><i>2SLGBTQ+ Care at the Student Wellness Centre</i> (HRT services provided here)</a></li>
-                      <li><a target="_blank" href="https://students.wlu.ca/support-and-wellness/diversity-and-equity/gender-and-sexuality/index.html?ref=student-life%2Fdiversity-and-equity%2Fgender-and-sexuality%2Findex.html"><i>Gender and Sexuality Services and Support</i></a></li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
           </div>
 
           <div id="bookmarks" class="content-region hide">
@@ -259,10 +182,14 @@ Guide – Ontario</a></li>
               <div class="imageflex">
                 <img src="imgs/Emi.png" width=100% height=100% />
                 <p class="imageflexcontent">
-                  Helloooo! My name is Emi! (she/her/hers)
+                  Hello! My name is Emi! (she/her/hers)
                   <br />
-                  <i>Emi's House</i> is a website and community established by myself. It is meant to be a side-project amidst my Community Worker journey. This website aims to be an archive of active resources within the Golden Horseshoe area (Windsor to Ottawa), a journal on what I've learned amidst my trans experience, and generally something helpful to point to for those newly transitioning.  
-                  <br />
+                    <i>Emi's House</i> is a website established by me and Erik. It is meant to be a side-project amidst my Community Worker journey. This website aims to be a few different things:
+                  <br /> <br />
+                    1. A journal on what I've learned amidst my trans experience
+                  <br /> <br /> 
+                    2. An up to date, helpful, and streamlined resource for those newly transitioning in the province.
+                  <br /> <br />
                   Layout heavily inspired by the <a href="https://www.meleelibrary.com">Melee Library</a> website. 
                   <br />
                 </p>
@@ -275,7 +202,6 @@ Guide – Ontario</a></li>
               If you have any suggestions or feedback for this website, please reach Emilia at <a href= "mailto:emilia.harary@gmail.com?subject=Suggestion%2FFeedback%20for%20Emi's%20House">emilia.harary@gmail.com</a>
             </p>
           </div>
-          
         </div>
       </div>
     </div>

@@ -627,5 +627,224 @@
     "url": "https://idguide.ca",
     "location": null,
     "description": "Project created by Dana Rosamund Teagle which greatly streamlines the steps and forms needed to change your name and ID's in Ontario! (Alberta and Manitoba too!)"
+  },
+  {
+    "title": "Brock University | 2SLGBTQIA+ On Campus Resources",
+    "categories": [
+      "list",
+      "postsec"
+    ],
+    "regions": [
+      "niagara"
+    ],
+    "url": "https://brocku.ca/human-rights/student-justice-centre/2slgbtqia-resources/",
+    "location": "1812 Sir Isaac Brock Way, St. Catharines, ON L2S 3A1",
+    "description": ""
+  },
+  {
+    "title": "Carleton University Health and Counselling Services | Dr. Anna York-Lyon",
+    "categories": [
+      "hrt",
+      "medical",
+      "postsec"
+    ],
+    "regions": [
+      "ottawa"
+    ],
+    "url": "https://www.rainbowhealthontario.ca/service-provider-directory/carleton-university-health-and-counselling-services/",
+    "location": "1125 Colonel By Dr, 2600 CTTC Building Ottawa, K1S 5B6",
+    "description": "Dr. Anna York-Lyon at Carelton University who specializes in LGBTQ+ health. Services listed include gender-affirming hormone care (HRT), transition-related surgery assessments, fertility planning,  and many more! "
+  },
+  {
+    "title": "Carelton University | Gender & Sexuality Resource Centre (GSRC)",
+    "categories": [
+      "social",
+      "postsec"
+    ],
+    "regions": [
+      "ottawa"
+    ],
+    "url": "https://www.cusaonline.ca/service-centres/gsrc/",
+    "location": "1125 Colonel By Dr, Ottawa, ON K1S 5B6",
+    "description": "Carelton University's safe space initiative. Peer Support, referrals to community supports, social/study space, queer library, Discord server and more!"
+  },
+  {
+    "title": "McMaster University | Gender Affirming Care",
+    "categories": [
+      "hrt",
+      "medical",
+      "mental",
+      "social",
+      "postsec"
+    ],
+    "regions": [
+      "hamilton"
+    ],
+    "url": "https://wellness.mcmaster.ca/program/gender-affirming-care/",
+    "location": "McMaster University, PGCLL 210/201, 1280 Main Street West, Hamilton, ON  L8S 4K1",
+    "description": "Social Wellness Centre at McMaster that provides a vast array of resources including prescriptions for HRT, referral letters, Gender-affirming counselling, and a drop-in group for gender diverse/questioning students. Runs through the Fall/Winter school year."
+  },
+  {
+    "title": "McMaster University | 2SLGBTQIA+ Resources",
+    "categories": [
+      "list",
+      "postsec"
+    ],
+    "regions": [
+      "hamilton"
+    ],
+    "url": "https://wellness.mcmaster.ca/resources/2slgbtqia-resources/",
+    "location": "",
+    "description": "McMasters' list of 2SLGBTQIA+ resources on-campus, locally, and online."
+  },
+  {
+    "title": "Queen's University Association for Queer Employees | Resources",
+    "categories": [
+      "postsec",
+      "list"
+    ],
+    "regions": [
+      "kingston"
+    ],
+    "url": "https://www.queensu.ca/quaqe/resources",
+    "location": "",
+    "description": "'The following are queer-positive resources available to Queen's staff, students and faculty. We have only shared those we are familiar with, so please let us know if there are others we should include. '"
+  },
+  {
+    "title": "Queen's University | Gender and Sexuality",
+    "categories": [
+      "postsec",
+      "list"
+    ],
+    "regions": [
+      "kingston"
+    ],
+    "url": "https://www.queensu.ca/inclusive/resources/gender-and-sexuality",
+    "location": "99 University Ave, Kingston, ON K7L 3N6",
+    "description": "List of LGBTQ+ resources Queen's University provides to their students. List includes counselling services, Sexual Health Resource Centre, programming, spaces, and well-being supports, and more."
+  },
+  {
+    "title": "Trent University | Student Wellness Centre, 2SLGBTQIA+ Supports",
+    "categories": [
+      "list",
+      "social",
+      "hrt",
+      "postsec"
+    ],
+    "regions": [
+      "pb"
+    ],
+    "url": "https://www.trentu.ca/wellness/counselling/mental-health-resources/lgbtqqia2s-supports",
+    "location": "1600 W Bank Dr, Peterborough, ON K9L 0G2",
+    "description": ""
+  },
+  {
+    "title": "Trent University | Gender Affirming Care at Trent Student Health Services",
+    "categories": [
+      "hrt",
+      "postsec"
+    ],
+    "regions": [
+      "pb"
+    ],
+    "url": "https://www.trentu.ca/wellness/sites/trentu.ca.wellness/files/2025-09/gender_affirming_care_at_trent_student_health_services.pdf",
+    "location": "Blackburn Hall, 1600 W Bank Dr Suite 111, Peterborough, ON K9J 7B8",
+    "description": "A pdf that goes over the gender affirming care that are offered by TSHS."
+  },
+  {
+    "title": "LGBTOUT @ UofT",
+    "categories": [
+      "postsec",
+      "social"
+    ],
+    "regions": [
+      "toronto"
+    ],
+    "url": "https://lgbtout.sa.utoronto.ca/",
+    "location": "UTSU Student Commons",
+    "description": "LGBTOUT is University of Toronto's LGBTQ+ student organization. They have a drop-in centre, events, and ways for students to get involved."
+  },
+  {
+    "title": "University of Toronto | Resources - Sexual & Gender Diversity Office",
+    "categories": [
+      "list",
+      "postsec"
+    ],
+    "regions": [
+      "toronto"
+    ],
+    "url": "https://sgdo.utoronto.ca/resources/",
+    "location": "",
+    "description": "Resource list provided by University of Toronto for LGBTQ+ students."
+  },
+  {
+    "title": "WUSA Glow Centre @ UW",
+    "categories": [
+      "list",
+      "social",
+      "medical",
+      "legal",
+      "mental",
+      "postsec"
+    ],
+    "regions": [
+      "kw"
+    ],
+    "url": "https://wusa.ca/services/student-run-services/glow/",
+    "location": "Student Life Centre, 200 University Ave W, Waterloo, ON N2L 3L3",
+    "description": "Student-ran Glow Centre is Waterloo's most popular 2SLGBTQIA+ space and offers a vast array of trans/queer resources. Most notably is their Google Drive which you can find in the 'Transition Resources' section which has a plethora of information on name/sex change processes, medical transition resources, and more."
+  },
+  {
+    "title": "University of Waterloo | Gender Affirming Care",
+    "categories": [
+      "hrt"
+    ],
+    "regions": [
+      "kw"
+    ],
+    "url": "https://uwaterloo.ca/students/health-and-well-being/primary-care-appointments/gender-affirming-care",
+    "location": "",
+    "description": ""
+  },
+  {
+    "title": "Glow Centre's Transgender Resource Library",
+    "categories": [
+      "highlight",
+      "list",
+      "postsec"
+    ],
+    "regions": [
+      "kw"
+    ],
+    "url": "https://drive.google.com/drive/folders/1OhfdsMvCK3hdgOyFkPRyxJYPqqtQ4inz",
+    "location": "",
+    "description": "A seemingly continuously updated and vast trans resource directory intended for UW students but honestly has a lot of resources that could just as easily apply to those in the KW area. Gender Neutral restrooms, Transition Online Retailers, Mental Health resources, International Resources, and so much more."
+  },
+  {
+    "title": "Western University | 2SLGBTQIA+ Supports",
+    "categories": [
+      "list",
+      "hrt",
+      "postsec"
+    ],
+    "regions": [
+      "london"
+    ],
+    "url": "https://www.uwo.ca/health//psych/2SLGBTQIA+.html",
+    "location": "",
+    "description": "Western University's list of 2SLGBTQIA+ resources."
+  },
+  {
+    "title": "Laurier | 2SLGBTQ+ Care at the Student Wellness Centre",
+    "categories": [
+      "postsec",
+      "hrt"
+    ],
+    "regions": [
+      "kw"
+    ],
+    "url": "https://students.wlu.ca/support-and-wellness/student-wellness-centre/assets/resources/lgbtq-care-wellness-centre.html",
+    "location": "Campus Dependant, check website",
+    "description": "Quick overview of services and care provided at the Student Wellness Centre"
   }
 ]
