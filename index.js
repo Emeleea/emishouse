@@ -4,137 +4,105 @@ async function fetchJSONData() {
 }
 
 const sources = fetchJSONData();
+const resources = [];
 
-// Blank variables that get filled with sources via for loop
-let highlightedSources = ``;
-let listSources = ``;
-let socialSources = ``;
-let mentalSources = ``;
-let medicalSources = ``;
-let legalSources = ``;
-let hrtSources = ``;
-let familySources = ``;
-let harmreductSources = ``;
-let housingSources = ``;
-let financialSources = ``;
-let foodSources = ``;
+const tpl = document.getElementById('item-template');
+const container = document.getElementById('item-container')
+let selected_location = "any"
+let selected_type = "any"
 
-const tags = [
-  ["highlight", highlightedSources, ".highlighted-resources"],
-  ["list", listSources, ".list-resources"],
-  ["social", socialSources, ".social-resources"],
-  ["mental", mentalSources, ".mental-resources"],
-  ["medical", medicalSources, ".medical-resources"],
-  ["legal", legalSources, ".legal-resources"],
-  ["hrt", hrtSources, ".hrt-resources"],
-  ["family", familySources, ".family-resources"],
-  ["harmreduct", harmreductSources, ".harmreduct-resources"],
-  ["housing", housingSources, ".housing-resources"],
-  ["financial", financialSources, ".financial-resources"],
-  ["food", foodSources, ".food-resources"],
+class Resource {
+  constructor(url, categories, regions, title, location, description) {
+    this.url = url;
+    this.categories = categories;
+    this.regions = regions;
+    this.title = title;
+    this.location = location;
+    this.description = description;
+  }
+}
+
+// TODO: Change this into a set, and populate it during the initial parsing
+// of the main resources list
+const categories = [
+  "highlight",
+  "list",
+  "social",
+  "mental",
+  "medical",
+  "legal",
+  "hrt",
+  "family",
+  "harmreduct",
+  "housing",
+  "financial",
+  "food",
 ]
 
-const locations = [
-  "torontoS",
-  "durhamS",
-  "yorkS",
-  "peelS",
-  "haltonS",
-  "barrieS",
-  "hamiltonS",
-  "niagaraS",
-  "kwS",
-  "londonS",
-  "windsorS",
-]
+// TODO: Do the same as above, but also with locations
 
-let torontoS = ``;
-let durhamS = ``;
-let yorkS = ``;
-let peelS = ``;
-let haltonS = ``;
-let barrieS = ``;
-let hamiltonS = ``;
-let niagaraS = ``;
-let kwS = ``;
-let londonS = ``;
-let windsorS = ``;
+// This is just functional-style syntax for a `for loop`, makes chaining
+// operations together easier
+sources
+  .then(data => data.forEach(i => {
+    resources.push(new Resource(
+      i.url,
+      i.categories,
+      i.regions,
+      i.title,
+      i.location,
+      i.description
+    ));
+  }))
+  .then(() => {
+    // this function is here because I need it to render the page *after* the
+    // resources array is initialized
+    renderIntoTemplate(container, tpl, "any", "any");
+  })
 
-// The for loop in question 
-sources.then(data => data.forEach(function(source) {
-  let cardTemplate = `
-    <div class="card">
-      <div class="card-heading">
-        <div class="card-title"><a target="_blank" href=${source.url}>${source.title}</a></div>
+function renderIntoTemplate(container, template, selected_category, selected_location) {
+  container.innerHTML = '';
 
-        <div class="card-location"><a href="https://maps.google.com/?q=${source.location}">${source.location}</a></div>
-      </div>
-
-      <div class="card-description">
-        ${source.description}
-      </div>
-    </div>
-    `;
-
-    tags.forEach(i => {
-      if (source.categories.includes(i[0].toString())) {
-        i[1] += cardTemplate;
-        console.log(i[1].toString())
+  const matches = resources
+    .filter(i => {
+      if (i.categories) {
+        return selected_category === "any" ? true : i.categories.includes(selected_category)
+      }
+    })
+    .filter(i => {
+      if (i.regions) {
+        return selected_location === "any" ? true : i.regions.includes(selected_location)
+      }
+      else {
+        return false
       }
     })
 
-  /* if (source.location.includes("Toronto")) {
-  torontoS =
-    torontoS+
-    cardTemplate;
-  }
-  /*{
-  if (source.location.includes("Durham")) {
-  durhamS =
-    durhamS+
-    cardTemplate;
-  }
-  */
-}))
-  .then(() => {
-    //Selecting the divs in index.html and making them their respective filled divs
+  matches.forEach(i => {
+    const clone = template.content.cloneNode(true);
+    const headingEl = clone.querySelector('.card-heading')
+    const title_linkEl = clone.querySelector('.card-title-link')
+    const locationEl = clone.querySelector('.card-location')
+    const descriptionEl = clone.querySelector('.card-description')
 
-  tags.forEach(i => {
-    const selected = document.querySelector(i[2]);
-    selected.innerHTML = i[1];
+    if (headingEl) headingEl.textContent = location ?? ''
+    if (title_linkEl) title_linkEl.setAttribute("href", i.url ?? '')
+    title_linkEl.textContent = i.title ?? ''
+    if (locationEl) locationEl.textContent = i.location ?? ''
+    if (descriptionEl) descriptionEl.textContent = i.description ?? ''
+
+    container.appendChild(clone);
   })
+}
 
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
+const resource_form = document.getElementById("resource-filter-form");
+resource_form.addEventListener('change', (e) => {
+  selected_type = e.target.value
+  renderIntoTemplate(container, tpl, selected_type, selected_location)
+})
 
-    /* const durhamcards = document.querySelector('.durham');
-    durhamcards.innerHTML = durhamS;
-    
-    const yorkcards = document.querySelector('.york');
-    yorkcards.innerHTML = yorkS;
-    
-    const peelcards = document.querySelector('.peel');
-    peelcards.innerHTML = peelS;
-    
-    const haltoncards = document.querySelector('.halton');
-    haltoncards.innerHTML = haltonS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS;
-    
-    const torontocards = document.querySelector('.toronto');
-    torontocards.innerHTML = torontoS; */
-  });
+const location_form = document.getElementById("location-filter-form");
+location_form.addEventListener('change', (e) => {
+  selected_location = e.target.value
+  renderIntoTemplate(container, tpl, selected_type, selected_location)
+})
