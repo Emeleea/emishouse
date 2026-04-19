@@ -2,215 +2,305 @@
 <html>
   <head>
     <!-- Page setup -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Emi's House</title>
-    <meta name="description" content="A living resource for trans/non-binary folks in the GTA and beyond">
-    <meta name="author" content="Emilia House H. She uses she/her pronouns.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
+    <meta
+      name="description"
+      content="A living resource for trans/non-binary folks in the GTA and beyond"
+    />
+    <meta name="author" content="Emilia House H. She uses she/her pronouns." />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-     rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"
-    type="text/css" />
-   
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <!-- bootstrap -->
     <!-- <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-  </head> 
-  
-  <body> 
-    <header id="header">
-      <a href="https://emishouse.ca"><img src="logo.png" class="center" width=auto height="275"></a>
+  </head>
 
-      <h1><center>A living resource for trans/non-binary folks in the GTA and beyond</center></h1>
-      <p><center>Press 'B' at any time to leave this website</center></p> 
+  <body>
+    <header id="header">
+      <a href="https://emishouse.ca"
+        ><img src="logo.png" class="center" width="auto" height="275"
+      /></a>
+
+      <h1>
+        <center>
+          A living resource for trans/non-binary folks in the GTA and beyond
+        </center>
+      </h1>
+      <p><center>Press 'B' at any time to leave this website</center></p>
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">Home</a></li>
-        <li>
-          <div class ="dropdown">
-            <a href="#resources">Resource Lists</a>
-            <div class="dropdown-content">
-              <a href="#toronto">Toronto</a>
-              <a href="#durham">Durham</a>
-              <a href="#york">York</a>
-              <a href="#peel">Peel</a>
-              <a href="#halton">Halton</a>
-              <a href="#barrie">Barrie</a>
-              <a href="#hamilton">Hamilton</a>
-              <a href="#niagara">Niagara</a>
-              <a href="#kw">Kitchener-Waterloo</a>
-              <a href="#london">London</a>
-              <a href="#windsor">Windsor</a>
-            </div>
-          </div>
-        </li>
+        <li><a href="#resources">Resource Lists</a></li>
         <li><a href="#bookmarks">Emi's Bookmarks</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59">Resource Submission Form</a></li>
+        <li>
+          <a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59"
+            >Resource Submission Form</a
+          >
+        </li>
       </ul>
     </header>
-   
+
     <!-- Escape script -->
     <script>
-      document.body.addEventListener("keydown", (ev) => { 
+      document.body.addEventListener("keydown", (ev) => {
         if (ev.key.toLowerCase() == "b") {
-          window.location.replace(
-            "https://www.google.ca/",
-          );
-        }  
+          window.location.replace("https://www.google.ca/");
+        }
       });
     </script>
 
     <div id="container">
       <div class="inner">
-        <div id="content"> 
+        <div id="content">
           <div id="home" class="content-region hide">
-
             <h1>Welcome to Emi's House</h1>
-
           </div>
-            <div id="resources" class="content-region hide">
-	           <h4><i>Have suggestions for resources? Submit them <a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59">here!</a></i></h4>
-              <h1>Resource List</h1>
-                <!-- Actual start of the webpage-->
-              <h3>Resource type</h3>
-              <form id="resource-filter-form">
-                <input type="radio" name="item" id="item-any" value="any" checked></input>
-                <label for="item-any">Any</label>
-                <input type="radio" name="item" id="item-highlight" value="highlight"></input>
-                <label for="item-highlight">Highlight</label>
-                <input type="radio" name="item" id="item-list" value="list"></input>
-                <label for="item-list">List</label>
-                <input type="radio" name="item" id="item-social" value="social"></input>
-                <label for="item-social">Social</label>
-                <input type="radio" name="item" id="item-mental" value="mental"></input>
-                <label for="item-mental">Mental</label>
-                <input type="radio" name="item" id="item-medical" value="medical"></input>
-                <label for="item-medical">Medical</label>
-                <input type="radio" name="item" id="item-legal" value="legal"></input>
-                <label for="item-legal">Legal</label>
-                <input type="radio" name="item" id="item-hrt" value="hrt"></input>
-                <label for="item-hrt">HRT</label>
-                <input type="radio" name="item" id="item-family" value="family"></input>
-                <label for="item-family">Family</label>
-                <input type="radio" name="item" id="item-harmreduct" value="harmreduct"></input>
-                <label for="item-harmreduct">Harm Reduction</label>
-                <input type="radio" name="item" id="item-housing" value="housing"></input>
-                <label for="item-housing">Housing</label>
-                <input type="radio" name="item" id="item-financial" value="financial"></input>
-                <label for="item-financial">Financial</label>
-                <input type="radio" name="item" id="item-food" value="food"></input>
-                <label for="item-food">Food</label>
-              </form>
-              <h3>Resource location</h3>
-              <form id="location-filter-form">
-                <input type="radio" name="item" id="item-anyl" value="any" checked></input>
-                <label for="item-anyl">Any</label>
-                <input type="radio" name="item" id="item-toronto" value="toronto"></input>
-                <label for="item-toronto">Toronto</label>
-                <input type="radio" name="item" id="item-barrie" value="barrie"></input>               
-                <label for="item-barrie">Barrie</label>
-                <input type="radio" name="item" id="item-simcoe" value="simcoe"></input>
-                <label for="item-simcoe">Simcoe</label>
-                <input type="radio" name="item" id="item-ottawa" value="ottawa"></input>
-                <label for="item-ottawa">Ottawa</label>
-                <input type="radio" name="item" id="item-windsor" value="windsor"></input>
-                <label for="item-windsor">Windsor</label>
-                <input type="radio" name="item" id="item-kw" value="kw"></input>
-                <label for="item-kw">Kitchener/Waterloo</label>
-                <input type="radio" name="item" id="item-kingston" value="kingston"></input>
-                <label for="item-kingston">Kingston</label>
-                <input type="radio" name="item" id="item-pb" value="pb"></input>
-                <label for="item-pb">Peterborough</label>               
-              </form>
-              <br />
-                <template id="item-template">
-                <div class="card">
-                  <div class="card-title">
-                    <a class="card-title-link"></a>
-                  </div>
-                  <div class="card-location"></div>
-                  <div class="card-description"></div>
+          <div id="resources" class="content-region hide">
+            <h4>
+              <i
+                >Have suggestions for resources? Submit them
+                <a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59"
+                  >here!</a
+                ></i
+              >
+            </h4>
+
+            <h1>Resource List</h1>
+
+            <h2>Categories</h2>
+            <hr />
+            <template id="category-filter-template">
+              <div class="form-item">
+                <input
+                  id="category-input"
+                  type="radio"
+                  name="category-item"
+                  value="any"
+                />
+                <label id="category-label"></label>
+              </div>
+            </template>
+            <form id="category-filter-container"></form>
+
+            <h2>Regions</h2>
+            <hr/>
+            <template id="region-filter-template">
+              <div class="form-item">
+                <input
+                  id="region-input"
+                  type="radio"
+                  name="region-item"
+                  value="any"
+                />
+                <label id="region-label"></label>
+              </div>
+            </template>
+            <form id="region-filter-container"></form>
+
+            <h2>Resources</h2>
+            <hr />
+            <template id="item-template">
+              <div class="card">
+                <div class="card-title">
+                  <a class="card-title-url"></a>
                 </div>
-              </template>
+                <div class="card-region">
+                  <a class="card-region-url"></a>
+                </div>
+                <div class="card-description"></div>
+              </div>
+            </template>
+            <div id="item-container"></div>
 
-              <div id="item-container"></div>
-
-              <script src="index.js"></script>
+            <script src="index.js"></script>
           </div>
 
           <div id="bookmarks" class="content-region hide">
             <h1>Emi's Bookmarks</h1>
-              <p>Amidst all of the organized resources, I encounter many that I don't know how to organize but know they will be useful or interesting to someone!</p>
+            <p>
+              Amidst all of the organized resources, I encounter many that I
+              don't know how to organize but know they will be useful or
+              interesting to someone!
+            </p>
             <td>
               <ul>
-                <li><a href="https://genderdysphoria.fyi/en">Gender Dysphoria Bible</a></li>
-                <li><a href="https://docs.google.com/document/d/e/2PACX-1vSkuHYY6Xlx9sa83erSXA60qSzGl_qQjlDYi9hC0ZxE6azXcsdvbiCvBM-Vt_J-rcynkzY3mQLWEcKx/pub">Canadian Gender Affirming Insurance Coverage</a></li>
-                <li><a href="https://stainedglasswoman.substack.com/p/what-does-all-this-trans-stuff-mean">What Does All This Trans Stuff Mean?</a></li>
-                <li><a href="https://buymeacoffee.com/alyssavt/no-explanations-instructions-feminizing">alyssavt - No explanations, just instructions! (feminizing)</a></li>
-                <li><a href="https://stainedglasswoman.substack.com/p/how-to-get-what-you-need-from-your-b15">How To Get What You Need From Your Therapist</a></li>
-                <li><a href="https://stainedglasswoman.substack.com/p/how-to-get-what-you-need-from-your">How To Get What You Need From Your Doctor</a></li>
-                <li><a href="https://self-compassion.org/exercises/exercise-2-self-compassion-break/">Exercise 2: Self-Compassion Break</a></li>
-                <li><a href="https://www.the519.org/wp-content/uploads/2022/01/V10-Adult-Name-Change-Guide.pdf">Name and Gender Marker Change
-Guide – Ontario</a></li>
-                <li><a href="https://transfemscience.org/">Transfeminine Science</a></li>
-                <li><a href="https://www.youthline.ca/advocacy/learning-library/">LGBT Youthline Advocacy Library</a></li>
-                <li><a href="https://translifeline.org/resources/id-change-library/">Trans Lifeline ID Change Library (United States)</a></li>
-                <li><a href="https://madgenderscience.miraheze.org/wiki/Open_Source_Hormone_Production">Open Source Hormone Production</a></li>
-                <li><a href="https://www.connectfund.org/">Connect Fund - Bridging the healthcare gap for 2SLGBTQ+ people</a></li>
-                <li><a href="https://www.littlemouse.fun/zines/transfem.pdf">Transfem DIY Zine</a></li>
-                <li><a href="https://www.littlemouse.fun/zines/transmasc.pdf">Transmasc DIY Zine</a></li>
+                <li>
+                  <a href="https://genderdysphoria.fyi/en"
+                    >Gender Dysphoria Bible</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vSkuHYY6Xlx9sa83erSXA60qSzGl_qQjlDYi9hC0ZxE6azXcsdvbiCvBM-Vt_J-rcynkzY3mQLWEcKx/pub"
+                    >Canadian Gender Affirming Insurance Coverage</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://stainedglasswoman.substack.com/p/what-does-all-this-trans-stuff-mean"
+                    >What Does All This Trans Stuff Mean?</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://buymeacoffee.com/alyssavt/no-explanations-instructions-feminizing"
+                    >alyssavt - No explanations, just instructions!
+                    (feminizing)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://stainedglasswoman.substack.com/p/how-to-get-what-you-need-from-your-b15"
+                    >How To Get What You Need From Your Therapist</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://stainedglasswoman.substack.com/p/how-to-get-what-you-need-from-your"
+                    >How To Get What You Need From Your Doctor</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://self-compassion.org/exercises/exercise-2-self-compassion-break/"
+                    >Exercise 2: Self-Compassion Break</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.the519.org/wp-content/uploads/2022/01/V10-Adult-Name-Change-Guide.pdf"
+                    >Name and Gender Marker Change Guide – Ontario</a
+                  >
+                </li>
+                <li>
+                  <a href="https://transfemscience.org/"
+                    >Transfeminine Science</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.youthline.ca/advocacy/learning-library/"
+                    >LGBT Youthline Advocacy Library</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://translifeline.org/resources/id-change-library/"
+                    >Trans Lifeline ID Change Library (United States)</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://madgenderscience.miraheze.org/wiki/Open_Source_Hormone_Production"
+                    >Open Source Hormone Production</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.connectfund.org/"
+                    >Connect Fund - Bridging the healthcare gap for 2SLGBTQ+
+                    people</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.littlemouse.fun/zines/transfem.pdf"
+                    >Transfem DIY Zine</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.littlemouse.fun/zines/transmasc.pdf"
+                    >Transmasc DIY Zine</a
+                  >
+                </li>
                 <li><a href="https://www.yohomo.ca">YOHOMO</a></li>
-                <li><a href="https://estrannai.se/">estrannaise - estradiol pharmacokinetics playground (I have no idea how this works)</a></li>
+                <li>
+                  <a href="https://estrannai.se/"
+                    >estrannaise - estradiol pharmacokinetics playground (I have
+                    no idea how this works)</a
+                  >
+                </li>
               </ul>
             </td>
-          </div> 
+          </div>
           <div id="about" class="content-region hide">
             <h1>About</h1>
-              <div class="imageflex">
-                <img src="imgs/Emi.png" width=100% height=100% />
-                <p class="imageflexcontent">
-                  Hello! My name is Emi! (she/her/hers)
-                  <br />
-                    <i>Emi's House</i> is a website established by me and Erik. It is meant to be a side-project amidst my Community Worker journey. This website aims to be a few different things:
-                  <br /> <br />
-                    1. A journal on what I've learned amidst my trans experience
-                  <br /> <br /> 
-                    2. An up to date, helpful, and streamlined resource for those newly transitioning in the province.
-                  <br /> <br />
-                  Layout heavily inspired by the <a href="https://www.meleelibrary.com">Melee Library</a> website. 
-                  <br />
-                </p>
-              </div>
-
+            <div class="imageflex">
+              <img src="imgs/Emi.png" width="100%" height="100%" />
+              <p class="imageflexcontent">
+                Hello! My name is Emi! (she/her/hers)
+                <br />
+                <i>Emi's House</i> is a website established by me and Erik. It
+                is meant to be a side-project amidst my Community Worker
+                journey. This website aims to be a few different things: <br />
+                <br />
+                1. A journal on what I've learned amidst my trans experience
+                <br />
+                <br />
+                2. An up to date, helpful, and streamlined resource for those
+                newly transitioning in the province.
+                <br />
+                <br />
+                Layout heavily inspired by the
+                <a href="https://www.meleelibrary.com">Melee Library</a>
+                website.
+                <br />
+              </p>
+            </div>
           </div>
           <div id="contact" class="content-region hide">
             <h1>Contact</h1>
             <p>
-              If you have any suggestions or feedback for this website, please reach Emilia at <a href= "mailto:emilia.harary@gmail.com?subject=Suggestion%2FFeedback%20for%20Emi's%20House">emilia.harary@gmail.com</a>
+              If you have any suggestions or feedback for this website, please
+              reach Emilia at
+              <a
+                href="mailto:emilia.harary@gmail.com?subject=Suggestion%2FFeedback%20for%20Emi's%20House"
+                >emilia.harary@gmail.com</a
+              >
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <footer>  
+    <footer>
       <h5>Created by Emilia House H. and Erik Blaziken 2025-2026</h5>
-      <h5>This is a simple website template published with Github Pages. <a href="https://github.com/zirafa/simple-website-template">Fork this repository</a> to create your own site!</h5>
+      <h5>
+        This is a simple website template published with Github Pages.
+        <a href="https://github.com/zirafa/simple-website-template"
+          >Fork this repository</a
+        >
+        to create your own site!
+      </h5>
     </footer>
-    
+
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
   </body>
