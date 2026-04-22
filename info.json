@@ -90,18 +90,6 @@
     "description": "Sherbourne Hospital in Toronto has a wide variety of social programs for queer individuals."
   },
   {
-    "title": "Gilbert Centre",
-    "categories": [
-      "Social"
-    ],
-    "regions": [
-      "Barrie"
-    ],
-    "url": "https://www.gilbertcentre.ca/",
-    "address": "80 Bradford St Suite 525, Barrie, ON L4N 3A8",
-    "description": null
-  },
-  {
     "title": "TransQ",
     "categories": [
       "Social"
@@ -169,18 +157,6 @@
     "regions": null,
     "url": "https://bouncebackontario.ca/",
     "address": null,
-    "description": null
-  },
-  {
-    "title": "Gilbert Centre",
-    "categories": [
-      "Mental"
-    ],
-    "regions": [
-      "Barrie"
-    ],
-    "url": "https://www.gilbertcentre.ca/",
-    "address": "80 Bradford St Suite 525, Barrie, ON L4N 3A8",
     "description": null
   },
   {

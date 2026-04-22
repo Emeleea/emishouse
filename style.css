@@ -3,6 +3,14 @@
  */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
+
+
+
+.dark-mode {
+  background: linear-gradient(-45deg, #5fccf9, #fff4fc, #f08af5);
+  
+}
+
 html {
   font-size: 62.5%;
 }
@@ -42,9 +50,10 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.card-location {
+.card-region {
   font-style: italic;
-  color: #777;
+  color: #777777;
+  justify-content: right;
 
 }
 
@@ -109,10 +118,10 @@ small {
  * Headings
  */
 h1,
-h2 {
+h2
+{
   font-family: 'Lato', sans-serif;
-}
-
+},
 h1,
 h2,
 h3,

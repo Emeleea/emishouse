@@ -62,11 +62,7 @@
         <li><a href="#bookmarks">Emi's Bookmarks</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li>
-          <a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59"
-            >Resource Submission Form</a
-          >
-        </li>
+        <li><a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59">Resource Submission Form</a></li>
       </ul>
     </header>
 
@@ -127,18 +123,21 @@
             </template>
             <form id="region-filter-container"></form>
 
-            <h2>Resources</h2>
-            <hr />
+            <br />
+            
+            
             <template id="item-template">
               <div class="card">
-                <div class="card-title">
-                  <a class="card-title-url"></a>
+                <div class= card-heading>
+                  <div class="card-title">
+                    <a class="card-title-url"></a>
+                  </div>
+                  <div class="card-region">
+                    <a class="card-region-url"></a>
+                  </div>
                 </div>
-                <div class="card-region">
-                  <a class="card-region-url"></a>
-                </div>
-                <div class="card-description"></div>
-              </div>
+              <div class="card-description"></div>
+            </div>
             </template>
             <div id="item-container"></div>
 
