@@ -1,3 +1,4 @@
 .vscode
 .well-known
 deno.lock
+lighttpd.conf
