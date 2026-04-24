@@ -1,0 +1,638 @@
+# - title: ""
+#   categories:
+#     -
+#   regions:
+#     -
+#   url: ""
+#   address: ""
+#   description: ""
+
+- title: "HRT! Gender Affirming Care Spreadsheet"
+  categories:
+    - List
+  regions:
+  url: "https://docs.google.com/spreadsheets/d/111o63Tvt20heohe9KtRW_AZPBKOz4kpZ1pb7r0CJpvU"
+  address:
+  description: "Community maintained effort from to collectively catalogue existing resources and services for queer/trans people in Ontario! Is constantly expanding and updated and is always looking for contributions!"
+
+- title: "Rainbow Health Directory"
+  categories:
+    - List
+  regions:
+  url: "https://www.rainbowhealthontario.ca/2slgbtq-health/service-provider-directory/"
+  address:
+  description: "This directory is designed to help you find health and social service providers who have expressed a commitment to providing competent and welcoming care to 2SLGBTQ people in Ontario."
+
+- title: "pflag"
+  categories:
+    - List
+  regions:
+  url: "https://pflagcanada.ca/chapters/"
+  address:
+  description: "pflag is a Canadian organization with chapters all across Ontario. On most of these chapters pages you can find a list of Queer resources that are local to the area."
+
+- title: "HQ Toronto: Trans I.D. Legal Clinic"
+  categories:
+    - Legal
+  regions:
+    - Toronto
+  url: "https://hqtoronto.ca/transidclinic"
+  address: "790 Bay St. #820, Toronto, ON M5G 1N8"
+  description: "On the last monday of each month, HQ Toronto and Kenet Family Law host a free monthly Trans ID clinic for 2STNB individuals. They will help cover costs of the forms, and the forms themselves."
+
+- title: "The 519"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.the519.org/"
+  address: "519 Church Street, Toronto, ON M4Y 2C9"
+  description: "Major LGBTQ hub in the center of the village. Services and supports in many different areas. Financial, newcomers to Canada, housing, family and children, health services, art and culture, and social events that happen multiple times a week!"
+
+- title: "Friends of Ruby"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-programming/"
+  address: "70 Richmond St E, Toronto, ON M5C 1N8"
+  description: "Friends of Ruby is a drop-in youth centre for 2SLGBTQIA+ individuals, ages 16-29. They provide meals, activities, support groups, free one-on-one counselling, and assistance with housing, healthcare and jobs."
+
+- title: "YOHOMO"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.yohomo.ca/"
+  address:
+  description: "Toronto's online community dedicated to queer arts, culture, and nightlife."
+
+- title: "Sherbourne Health Programs"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://sherbourne.on.ca/community-health-programs/community-groups/"
+  address: "333 Sherbourne St, Toronto, ON M5A 2S5"
+  description: "Sherbourne Hospital in Toronto has a wide variety of social programs for queer individuals."
+
+- title: "TransQ"
+  categories:
+    - Social
+  regions:
+    - Barrie
+  url: "https://transq.ca/"
+  address: "80 Bradford St Suite 525, Barrie, ON L4N 3A8"
+  description:
+
+- title: "Simcoe Pride"
+  categories:
+    - Social
+  regions:
+    - Simcoe
+  url: "https://www.simcoepride.com/"
+  address: "Simcoe County"
+  description:
+
+- title: "Families in TRANSition"
+  categories:
+    - Family
+  regions:
+    - Toronto
+  url: "https://ctys.org/services-programs/pride-prejudice/families-in-transition-caregiver-group/"
+  address: "65 Wellesley St E #300, Toronto, ON M4Y 2E3"
+  description: "Close group for parents/caregivers of 2LGBTQIA+ youth (ages 13-24) who have recently learned of their child's identity and wish for more tools and information on how to support them."
+
+- title: "Sherbourne Health: Supporting Our Youth (SOY)"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://sherbourne.on.ca/supporting-our-youth-soy/"
+  address: "333 Sherbourne St, Toronto, ON M5A 2SS"
+  description:
+
+- title: "Beyond Trauma"
+  categories:
+    - Mental
+  regions:
+    - Barrie
+  url: "https://beyondtrc.com/"
+  address: "15 Gallie Ct Suite 110, Barrie, ON L4M 0G6"
+  description:
+
+- title: "Bounce Back"
+  categories:
+    - Mental
+  regions:
+  url: "https://bouncebackontario.ca/"
+  address:
+  description:
+
+- title: "Canadian Mental Health Association"
+  categories:
+    - Mental
+  regions:
+  url: "https://cmha.ca/"
+  address:
+  description:
+
+- title: "Gender Affirming Clinic | CMHA York Regions & South Simcoe"
+  categories:
+    - HRT
+  regions:
+  url: "https://cmha-yr.on.ca/get-support/gender-affirming-health-clinic-12/"
+  address: "CMHA York Regions & South Simcoe"
+  description: "Self-referral HRT for those living in the York/South Simcoe area. (12+)"
+
+- title: "LGBTQ Youthline"
+  categories:
+    - Mental
+  regions:
+  url: "https://www.youthline.ca/"
+  address:
+  description: "YouthLine offers free support through our Ontario-wide 2SLGBTQ+ peer-support HelpLine (Taken from website)"
+
+- title: "310-COPE"
+  categories:
+    - Mental
+  regions:
+  url: "https://yssn.ca/crisis-services/310-cope/"
+  address:
+  description:
+
+- title: "COMET"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.fairlawnchurch.ca/events/comet/2025-12-09/"
+  address: "28 Fairlawn Ave, Toronto, ON M5M 1S7"
+  description: "COMET (Come Out & Meet Each Tuesday) is a free after-school drop-in program for 2SLGBTQIA+ youth ages 13-18 in North Toronto and the Greater Toronto Area. Questioning youth and allied friends are also welcome."
+
+- title: "George Chuvalo Neighbourhood Centre"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.conccommunity.org/george-chuvalo/"
+  address: "50 Sousa Mendes St, Toronto, ON M6P 3Z5"
+  description: "GCNC is here to provide exceptional programming and help build community-based resources. The Centre has a special focus on 2SLGBTQIA+ communities and children, youth, family programming, and is home to LOFT Kitchen Café and The Nook Children’s Program."
+
+- title: "Trauma Therapy Program | Women's College Hospital"
+  categories:
+    - Medical
+  regions:
+    - Toronto
+  url: "https://www.womenscollegehospital.ca/care-programs/mental-health/trauma-therapy-program/"
+  address: "76 Grenville Street, Toronto, Ontario M5S 1B2"
+  description:
+
+- title: "Toby's Place"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.rainbowcommunityplaces.org/"
+  address: "33 East Rd, Scarborough, ON M1N 2Z7"
+  description: "Toby's Place is a weekly drop-in after-school program and safe(r) space for 2SLGBTQIA+ youth, ages 13-20, living in Scarborough and the Greater Toronto Area. Question youth and allied friends are also welcome."
+
+- title: "Gender Creative Kids"
+  categories:
+    - Family
+  regions:
+  url: "https://gendercreativekids.com/"
+  address:
+  description: "Gender Creative Kids is a reference community organization that has supported trans, non-binary, and gender-fluid youth's affirmation within their families, schools, and communities since 2013."
+
+- title: "Gilbert Centre: Family & Youth"
+  categories:
+    - Family
+  regions:
+    - Barrie
+  url: "https://www.gilbertcentre.ca/family-youth"
+  address: "80 Bradford St Suite 525, Barrie, ON L4N 3A8"
+  description: "Barrie's Gilbert Centre's family & youth programs. As of November, it is a post describing the programs as on hiatus and will be back with more supports."
+
+- title: "Sherbourne Health: 2SLGBTQ Family Resources"
+  categories:
+    - Family
+  regions:
+    - Toronto
+  url: "https://sherbourne.on.ca/community-health-programs/2slgbtq-family-resources/"
+  address: "333 Sherbourne St, Toronto, ON M5A 2S5"
+  description: "The 2SLGBTQ+ Family Resources program is here to help queer and trans people learn more about building and supporting their families."
+
+- title: "Pieces to Pathways"
+  categories:
+    - Harm Reduction
+  regions:
+    - Toronto
+  url: "https://breakawaycs.ca/programs/pieces-to-pathways/"
+  address: "21 Strickland Ave, Toronto, ON M6K 3E6"
+  description: "Pieces to Pathways (P2P) is a peer-led initiative offering Canada's first substance use support program for LGBTQIA2S+ youth ages 16-29. All services are free and delivered by queer and trans staff with their own experiences of substance use and recovery."
+
+- title: "Regent Park Community Health Care: Harm Reduction Services & Sex Worker Drop In"
+  categories:
+    - Harm Reduction
+  regions:
+    - Toronto
+  url: "https://breakawaycs.ca/programs/pieces-to-pathways/"
+  address: "465 Dundas St E 2nd Floor, Toronto, ON M5A 2B2"
+  description: "These workshops are conducted by Harm Reduction Workers from RPCHC. Their primary focus is on opioid overdose response."
+
+- title: "HIV Legal Network: Connection, Care, Community – Harm Reduction for GBT2Q People who Use Drugs"
+  categories:
+    - Harm Reduction
+  regions:
+    - Toronto
+  url: "https://www.hivlegalnetwork.ca/site/connection-care-community-harm-reduction-for-gbt2q-people-who-use-drugs/?lang=en"
+  address: "1240 Bay St. Suite 600, Toronto, ON M5R 2A7"
+  description: "An article from the HIV Legal Network which outlines a Summary Report, and an Agenda for Action regarding the problem of substance use in queer communities (primarly, gay/bisexual/trans/queer men)"
+
+- title: "The 519: Housing Support Services"
+  categories:
+    - Housing
+  regions:
+    - Toronto
+  url: "https://www.the519.org/programs/housing-services//"
+  address: "519 Church St, Toronto, ON M4Y 2C9"
+  description: "In 2022, The 519 and Homes First opened a shelter dedicated to LGBTQ+ newcomers who have arrived through a refugee pathway. The space prioritizes trans, gender diverse and non-binary folks, and is the first shelter space exclusively for 2SLGBTQ+ adults in Toronto."
+
+- title: "YWCA: Emergency Shelter (Woodlawn)"
+  categories:
+    - Housing
+  regions:
+    - Toronto
+  url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter"
+  address: "80 Woodlawn Ave E, Toronto, ON M4T 1C1"
+  description: "In 2022, The 519 and Homes First opened a shelter dedicated to LGBTQ+ newcomers who have arrived through a refugee pathway. The space prioritizes trans, gender diverse and non-binary folks, and is the first shelter space exclusively for 2SLGBTQ+ adults in Toronto."
+
+- title: "YWCA: Emergency Shelters (Davenport)"
+  categories:
+    - Housing
+  regions:
+    - Toronto
+  url: "https://www.ywcatoronto.org/ourprograms/shelterandhousing/homelessshelter"
+  address: "348 Davenport Road, Toronto On, M5R 1K6"
+  description: "In 2022, The 519 and Homes First opened a shelter dedicated to LGBTQ+ newcomers who have arrived through a refugee pathway. The space prioritizes trans, gender diverse and non-binary folks, and is the first shelter space exclusively for 2SLGBTQ+ adults in Toronto."
+
+- title: "Fred Victor"
+  categories:
+    - Housing
+  regions:
+    - Toronto
+  url: "https://www.fredvictor.org"
+  address: "45 Queen St E, Toronto, ON M5C 1S1"
+  description: "Fred Victor is a social service charitable organization that fosters long-lasting and positive change in the lives of homeless and low-income people living across Toronto."
+
+- title: "Friends of Ruby: Transitional Housing"
+  categories:
+    - Housing
+  regions:
+    - Toronto
+  url: "https://www.friendsofruby.ca/transitional-housing/"
+  address: "70 Richmond St E, Toronto, ON M5C 1N8"
+  description: "A welcoming space for 2SLGBTQIA+ youth. We support two-spirit, lesbian, gay, bisexual, transgender, queer, intersex, asexual and all gender non-conforming youth (aged 16-29) by providing free counselling, housing and social services."
+
+- title: "The 519: Sasha Hashi Bursary"
+  categories:
+    - Financial
+  regions:
+    - Toronto
+  url: "https://www.the519.org/programs/the-519-sasha-hashi-bursary/"
+  address: "519 Church St, Toronto, ON M4Y 2C9"
+  description: "The 519 has set up a scholarship/bursary at Toronto Metropolitan University (TMU, formerly Ryerson University) to honour the memory of our beloved staff member, community leader, sibling, and a proud TMU graduate Sasha Hashi."
+
+- title: "The 519: Project Unlock"
+  categories:
+    - Financial
+  regions:
+    - Toronto
+  url: "https://www.the519.org/programs/project-unlock/"
+  address: "519 Church St, Toronto, ON M4Y 2C9"
+  description: "Project Unlock is an exciting collaboration between The 519 and Scotiabank designed specifically to help LGBTQ+ newcomers build economic resilience in Canada. It is a unique program focused not only on helping you with job readiness but also on supporting your overall sense of wellness as you settle into your new home."
+
+- title: "The 519: Tax Clinic"
+  categories:
+    - Financial
+  regions:
+    - Toronto
+  url: "https://www.the519.org/programs/tax-clinic/"
+  address: "519 Church St, Toronto, ON M4Y 2C9"
+  description: "Opens again early March 2026"
+
+- title: "Friends of Ruby: Grocery Day"
+  categories:
+    - Food
+  regions:
+    - Toronto
+  url: "https://www.friendsofruby.ca/programs-and-services/drop-in-services-and-programming/"
+  address: "70 Richmond St E, Toronto, ON M5C 1N8"
+  description: "Supplemental Groceries Update: Youth can now access groceries directly through the Drop-In—no appointment needed. Groceries are available Monday to Friday from 11:00 AM to 6:00 PM. While our Drop-In Centre no longer serves ready-to-eat meals, we remain committed to supporting food access. If you need help navigating local food banks, please contact us at drop-in@friendsofruby.ca. A huge thank you to @MazonCanada for supporting our Food Access programs!"
+
+- title: "SAFER SIX DOWNTOWN"
+  categories:
+    - HRT
+  regions:
+    - Toronto
+  url: "https://www.safersix.ca/gender-affirming-hormones"
+  address: "26 Dalhousie St, Toronto, ON M5B 2A5"
+  description: "Toronto's Inclusive Health Clinic. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP."
+
+- title: "SAFER SIX WEST"
+  categories:
+    - HRT
+  regions:
+    - Toronto
+  url: "https://www.safersix.ca/gender-affirming-hormones"
+  address: "27 Roncesvalles Ave Unit 505, Toronto, ON M6R 3B2"
+  description: "Toronto's Inclusive Health Clinic. One of the only self-Informed clinics of Core Toronto. If you are starting your transition journey now and would like to be proactive, I recommend booking an appointment with them ASAP."
+
+- title: "Friends of Ruby: Mental Health and Wellness Support"
+  categories:
+    - Mental
+  regions:
+    - Toronto
+  url: "https://www.friendsofruby.ca/programs-and-services/mental-health-and-wellness-support/"
+  address: "70 Richmond St E, Toronto, ON M5C 1N8"
+  description: "The counselling team at Friends of Ruby reflects the diversity of the 2SLGBTQIA+ community. Their personal and professional experience informs our comprehensive and collaborative approach to mental health and well-being."
+
+- title: "Friends of Ruby: Case Management"
+  categories:
+    - Mental
+  regions:
+    - Toronto
+  url: "https://www.friendsofruby.ca/programs-and-services/case-management/"
+  address: "70 Richmond St E, Toronto, ON M5C 1N8"
+  description: "Friends of Ruby case workers offer practical support to help young people navigate complex systems and break through the barriers holding them back. Think of them like knowledgeable, helpful support with access to useful resources at their fingertips."
+
+- title: "George Chuvalo Neighbourhood Centre | Southpaw Program"
+  categories:
+    - Social
+  regions:
+    - Toronto
+  url: "https://www.yohomo.ca/"
+  address: "50 Sousa Mendes St, Toronto, ON M6P 3Z5"
+  description: "Southpaw is a 5-week workshop program for trans, gender diverse and questioning youth (ages 18-29). It is a safe and accessible space for those who are starting out on their journey to connect with each other, build community and learn new skills. Light meals, transportation reimbursement and a small honorarium will be provided. The workshops will focus on community building, movement, wellness, fashion, navigating ID-clinics and employment. Fridays from 6:30-8PM, March 13 to April 10."
+
+- title: "George Chuvalo Neighbourhood Centre Fundraiser"
+  categories:
+    - Highlight
+  regions:
+    - Toronto
+  url: "https://www.zeffy.com/en-CA/donation-form/gcnc-drop-in-fundraiser"
+  address: "50 Sousa Mendes St, Toronto, ON M6P 3Z5"
+  description: "2SLGBTQ+ Drop-In Tuesdays and Trans/Gender Diverse Drop-In Wednesdays at the GCNC: A safe, twice weekly space for youth 12-18 to be themselves, wherever they are in their journey. Facilitating connection, support, and community; we aim to build youth resilience and self-expression through skill-building, sharing resources, peer engagement, and affirming workshops that empower individuals to thrive. Your contribution helps us sustain programming that supports at-risk youth of all genders and sexual identities at a critical stage of their personal and social development."
+
+- title: "West Ottawa Specialty Care"
+  categories:
+    - HRT
+  regions:
+    - Ottawa
+  url: "https://www.mywosc.ca/"
+  address: "770 Broadview Ave, Ottawa, ON K2A 3Z3"
+  description: "GaHC HRT by referral. Currently, Dr. Hasina Visram is accepting new patients and is really LGBTQI+ friendly."
+
+- title: "Windsor-Essex Youth Hub"
+  categories:
+    - HRT
+  regions:
+    - Windsor
+  url: "https://www.instagram.com/p/DE2dUD5RfXk/"
+  address: "215 Eugenie St W, Windsor, ON N8X 2X7"
+  description: "Nurse Practitioner in every Wednesday and Friday. Walk-in service gender affirming care when"
+
+- title: "Access Aliance"
+  categories:
+    - HRT
+  regions:
+    - Toronto
+  url: "https://accessalliance.ca/programs-services/lgbtq-programs/services-and-supports-for-lgbtq-newcomers/"
+  address: "340 College St Suite 500, Toronto, ON M5T 3A9"
+  description: "Non-insured walk-in clinic (Will not accept those with OHIP)"
+
+- title: "Ok2BMe"
+  categories:
+    - Mental
+  regions:
+    - Kitchener-Waterloo
+  url: "https://ok2bme.ca/"
+  address:
+  description:
+
+- title: "SPECTRUM - Waterloo Region's Rainbow Community Space"
+  categories:
+    - Highlight
+  regions:
+    - Kitchener-Waterloo
+  url: "https://ourspectrum.com/spectrum-groups/"
+  address: "283 Duke St W #210, Kitchener, ON N2H 3X7"
+  description:
+
+- title: "Out of the Box Counselling"
+  categories:
+    - Mental
+  regions:
+    - Kitchener-Waterloo
+  url: "https://outoftheboxcounselling.ca/"
+  address: "675 Queen St S Units 255 and 216, Kitchener, ON N2M 1A1"
+  description:
+
+- title: "SHORE Trans Health Resources"
+  categories:
+    - List
+  regions:
+    - Kitchener-Waterloo
+  url: "https://docs.google.com/document/d/1qBeXky-PxBdIvHGwQEMLNq8sxXc7Gmz55--ctUPUUUo/edit?tab=t.0"
+  address:
+  description:
+
+- title: "Journey with Grace Counselling"
+  categories:
+    - Mental
+  regions:
+    - Kitchener-Waterloo
+  url: "https://www.journeywithgracecounselling.com/"
+  address: "235 Frederick St #2, Kitchener, ON N2H 2M7"
+  description:
+
+- title: "IDGuide.ca"
+  categories:
+    - Legal
+    - Highlight
+  regions:
+  url: "https://idguide.ca"
+  address:
+  description: "Project created by Dana Rosamund Teagle which greatly streamlines the steps and forms needed to change your name and ID's in Ontario! (Alberta and Manitoba too!)"
+ 
+- title: "Brock University | 2SLGBTQIA+ On Campus Resources"
+  categories:
+    - List
+    - Post-Secondary
+  regions:
+    - Niagara
+  url: "https://brocku.ca/human-rights/student-justice-centre/2slgbtqia-resources/"
+  address: "1812 Sir Isaac Brock Way, St. Catharines, ON L2S 3A1"
+  description: ""
+
+- title: "Carleton University Health and Counselling Services | Dr. Anna York-Lyon" 
+  categories:
+    - HRT
+    - Medical
+    - Post-Secondary
+  regions:
+    - Ottawa
+  url: "https://www.rainbowhealthontario.ca/service-provider-directory/carleton-university-health-and-counselling-services/"
+  address: "1125 Colonel By Dr, 2600 CTTC Building Ottawa, K1S 5B6"
+  description: "Dr. Anna York-Lyon at Carelton University who specializes in LGBTQ+ health. Services listed include gender-affirming hormone care (HRT), transition-related surgery assessments, fertility planning,  and many more! "
+
+- title: "Carelton University | Gender & Sexuality Resource Centre (GSRC)"
+  categories:
+    - Social
+    - Post-Secondary
+  regions:
+    - Ottawa
+  url: "https://www.cusaonline.ca/service-centres/gsrc/"
+  address: "1125 Colonel By Dr, Ottawa, ON K1S 5B6"
+  description: "Carelton University's safe space initiative. Peer Support, referrals to community supports, social/study space, queer library, Discord server and more!"
+
+- title: "McMaster University | Gender Affirming Care"
+  categories:
+    - HRT
+    - Medical
+    - Mental
+    - Social
+    - Post-Secondary
+  regions:
+    - Hamilton
+  url: "https://wellness.mcmaster.ca/program/gender-affirming-care/"
+  address: "McMaster University, PGCLL 210/201, 1280 Main Street West, Hamilton, ON  L8S 4K1"
+  description: "Social Wellness Centre at McMaster that provides a vast array of resources including prescriptions for HRT, referral letters, Gender-affirming counselling, and a drop-in group for gender diverse/questioning students. Runs through the Fall/Winter school year."
+
+- title: "McMaster University | 2SLGBTQIA+ Resources"
+  categories:
+    - List
+    - Post-Secondary
+  regions:
+    - Hamilton
+  url: "https://wellness.mcmaster.ca/resources/2slgbtqia-resources/"
+  address: ""
+  description: "McMasters' list of 2SLGBTQIA+ resources on-campus, locally, and online."
+
+- title: "Queen's University Association for Queer Employees | Resources"
+  categories:
+    - Post-Secondary
+    - List
+  regions:
+    - Kingston
+  url: "https://www.queensu.ca/quaqe/resources"
+  address: ""
+  description: "'The following are queer-positive resources available to Queen's staff, students and faculty. We have only shared those we are familiar with, so please let us know if there are others we should include. '"
+
+- title: "Queen's University | Gender and Sexuality"
+  categories:
+    - Post-Secondary
+    - List
+  regions:
+    - Kingston
+  url: "https://www.queensu.ca/inclusive/resources/gender-and-sexuality"
+  address: "99 University Ave, Kingston, ON K7L 3N6"
+  description: "List of LGBTQ+ resources Queen's University provides to their students. List includes counselling services, Sexual Health Resource Centre, programming, spaces, and well-being supports, and more."
+
+- title: "Trent University | Student Wellness Centre, 2SLGBTQIA+ Supports"
+  categories:
+    - List
+    - Social
+    - HRT
+    - Post-Secondary
+  regions:
+    - Peterborough
+  url: "https://www.trentu.ca/wellness/counselling/mental-health-resources/lgbtqqia2s-supports"
+  address: "1600 W Bank Dr, Peterborough, ON K9L 0G2"
+  description: ""
+
+- title: "Trent University | Gender Affirming Care at Trent Student Health Services"
+  categories:
+    - HRT
+    - Post-Secondary
+  regions:
+    - Peterborough
+  url: "https://www.trentu.ca/wellness/sites/trentu.ca.wellness/files/2025-09/gender_affirming_care_at_trent_student_health_services.pdf"
+  address: "Blackburn Hall, 1600 W Bank Dr Suite 111, Peterborough, ON K9J 7B8"
+  description: "A pdf that goes over the gender affirming care that are offered by TSHS."
+
+- title: "LGBTOUT @ UofT"
+  categories:
+    - Post-Secondary
+    - Social
+  regions:
+    - Toronto
+  url: "https://lgbtout.sa.utoronto.ca/"
+  address: "UTSU Student Commons"
+  description: "LGBTOUT is University of Toronto's LGBTQ+ student organization. They have a drop-in centre, events, and ways for students to get involved."
+
+- title: "University of Toronto | Resources - Sexual & Gender Diversity Office"
+  categories:
+    - List
+    - Post-Secondary
+  regions:
+    - Toronto
+  url: "https://sgdo.utoronto.ca/resources/"
+  address: ""
+  description: "Resource list provided by University of Toronto for LGBTQ+ students."
+  
+- title: "WUSA Glow Centre @ UW"
+  categories:
+    - List
+    - Social
+    - Medical
+    - Legal
+    - Mental
+    - Post-Secondary
+  regions:
+    - Kitchener-Waterloo
+  url: "https://wusa.ca/services/student-run-services/glow/"
+  address: "Student Life Centre, 200 University Ave W, Waterloo, ON N2L 3L3"
+  description: "Student-ran Glow Centre is Waterloo's most popular 2SLGBTQIA+ space and offers a vast array of trans/queer resources. Most notably is their Google Drive which you can find in the 'Transition Resources' section which has a plethora of information on name/sex change processes, medical transition resources, and more."
+
+- title: "University of Waterloo | Gender Affirming Care"
+  categories:
+    - HRT
+  regions:
+    - Kitchener-Waterloo
+  url: "https://uwaterloo.ca/students/health-and-well-being/primary-care-appointments/gender-affirming-care"
+  address: ""
+  description: ""
+
+- title: "Glow Centre's Transgender Resource Library"
+  categories:
+    - Highlight
+    - List
+    - Post-Secondary
+  regions:
+    - Kitchener-Waterloo
+  url: "https://drive.google.com/drive/folders/1OhfdsMvCK3hdgOyFkPRyxJYPqqtQ4inz"
+  address: ""
+  description: "A seemingly continuously updated and vast trans resource directory intended for UW students but honestly has a lot of resources that could just as easily apply to those in the KW area. Gender Neutral restrooms, Transition Online Retailers, Mental Health resources, International Resources, and so much more."
+  
+- title: "Western University | 2SLGBTQIA+ Supports"
+  categories:
+    - List
+    - HRT
+    - Post-Secondary
+  regions:
+    - London
+  url: "https://www.uwo.ca/health//psych/2SLGBTQIA+.html"
+  address: ""
+  description: "Western University's list of 2SLGBTQIA+ resources."
+
+- title: "Laurier | 2SLGBTQ+ Care at the Student Wellness Centre"
+  categories:
+    - Post-Secondary
+    - HRT
+  regions:
+    - Kitchener-Waterloo
+  url: "https://students.wlu.ca/support-and-wellness/student-wellness-centre/assets/resources/lgbtq-care-wellness-centre.html"
+  address: "Campus Dependant, check website"
+  description: "Quick overview of services and care provided at the Student Wellness Centre"
