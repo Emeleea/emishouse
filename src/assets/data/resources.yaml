@@ -76,6 +76,15 @@
   address: "333 Sherbourne St, Toronto, ON M5A 2S5"
   description: "Sherbourne Hospital in Toronto has a wide variety of social programs for queer individuals."
 
+- title: "Gilbert Centre"
+  categories:
+    - Social
+  regions:
+    - Barrie
+  url: "https://www.gilbertcentre.ca/"
+  address: "80 Bradford St Suite 525, Barrie, ON L4N 3A8"
+  description:
+
 - title: "TransQ"
   categories:
     - Social
@@ -127,6 +136,15 @@
   regions:
   url: "https://bouncebackontario.ca/"
   address:
+  description:
+
+- title: "Gilbert Centre"
+  categories:
+    - Mental
+  regions:
+    - Barrie
+  url: "https://www.gilbertcentre.ca/"
+  address: "80 Bradford St Suite 525, Barrie, ON L4N 3A8"
   description:
 
 - title: "Canadian Mental Health Association"

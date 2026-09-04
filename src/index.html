@@ -6,64 +6,38 @@
     <title>Emi's House</title>
     <meta
       name="description"
-      content="A living resource for trans/non-binary folks in the GTA and beyond"
+      content="A living resource for trans/non-binary folks in Ontario"
     />
     <meta name="author" content="Emilia House H. She uses she/her pronouns." />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <link rel="icon" type="image/png" href="favicon.png" />
-
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="icon" type="image/avif" href="assets/images/favicon.avif" />
 
     <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
-
-    <!-- jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- bootstrap -->
-    <!-- <link rel="stylesheet"
-     href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header id="header">
       <a href="https://emishouse.ca"
-        ><img src="logo.png" class="center" width="auto" height="275"
+        ><img src="assets/images/logo.avif" class="center" width="auto" height="275"
       /></a>
 
       <h1>
-        <center>
-          A living resource for trans/non-binary folks in the GTA and beyond
-        </center>
+        <center>A living resource for trans/non-binary folks in Ontario</center>
       </h1>
       <p><center>Press 'B' at any time to leave this website</center></p>
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <!-- <li><a href="#home">Home</a></li> -->
-        <li><a href="#resources">Resource Lists</a></li>
-        <li><a href="#bookmarks">Emi's Bookmarks</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a target="_blank" href="https://forms.gle/BgrYtC9aTBFfmKp59">Resource Submission Form</a></li>
-      </ul>
+      <div class="tab-bar">
+        <ul class="main-menu">
+          <li><a href="#resources">Resource Lists</a></li>
+          <li><a href="#bookmarks">Emi's Bookmarks</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- Escape script -->
@@ -78,10 +52,7 @@
     <div id="container">
       <div class="inner">
         <div id="content">
-          <!-- <div id="home" class="content-region hide"> -->
-            <!-- <h1>Welcome to Emi's House</h1> -->
-          <!-- </div> -->
-          <div id="resources" class="content-region hide">
+          <div id="resources" class="content-region" hidden>
             <h4>
               <i
                 >Have suggestions for resources? Submit them
@@ -109,7 +80,7 @@
             <form id="category-filter-container"></form>
 
             <h2>Regions</h2>
-            <hr/>
+            <hr />
             <template id="region-filter-template">
               <div class="form-item">
                 <input
@@ -123,32 +94,29 @@
             </template>
             <form id="region-filter-container"></form>
 
-            <br />
-            
-            
+            <h2>Resources</h2>
+            <hr />
             <template id="item-template">
               <div class="card">
-                <div class= card-heading>
-                  <div class="card-title">
-                    <a class="card-title-url"></a>
-                  </div>
-                  <div class="card-region">
-                    <a class="card-region-url"></a>
-                  </div>
+                <div class="card-title">
+                  <a class="card-title-url"></a>
                 </div>
-              <div class="card-description"></div>
-            </div>
+                <div class="card-region">
+                  <a class="card-region-url"></a>
+                </div>
+                <div class="card-description"></div>
+              </div>
             </template>
             <div id="item-container"></div>
 
-            <script src="index.js"></script>
+            <script type="module" src="./region_filter.ts" defer></script>
           </div>
 
-          <div id="bookmarks" class="content-region hide">
+          <div id="bookmarks" class="content-region" hidden>
             <h1>Emi's Bookmarks</h1>
             <p>
-              Amidst all of the organized resources, I encounter many that I
-              don't know how to organize but know they will be useful or
+              Amidst all of the organized resources, I encounter many that
+              I don't know how to organize but know they will be useful or
               interesting to someone!
             </p>
             <td>
@@ -249,16 +217,17 @@
               </ul>
             </td>
           </div>
-          <div id="about" class="content-region hide">
+          <div id="about" class="content-region" hidden>
             <h1>About</h1>
             <div class="imageflex">
-              <img src="imgs/Emi.png" width="100%" height="100%" />
+              <img src="assets/images/Emi.avif" width="100%" height="100%" />
               <p class="imageflexcontent">
                 Hello! My name is Emi! (she/her/hers)
                 <br />
-                <i>Emi's House</i> is a website established by me and Erik. It
+                <i>Emi's House</i> is a website established by myself and Erin (she/her/hers). It
                 is meant to be a side-project amidst my Community Worker
-                journey. This website aims to be a few different things: <br />
+                journey. This website aims to be a few different things:
+                <br />
                 <br />
                 1. A journal on what I've learned amidst my trans experience
                 <br />
@@ -274,7 +243,7 @@
               </p>
             </div>
           </div>
-          <div id="contact" class="content-region hide">
+          <div id="contact" class="content-region" hidden>
             <h1>Contact</h1>
             <p>
               If you have any suggestions or feedback for this website, please
@@ -290,17 +259,10 @@
     </div>
 
     <footer>
-      <h5>Created by Emilia House H. and Erik Blaziken 2025-2026</h5>
-      <h5>
-        This is a simple website template published with Github Pages.
-        <a href="https://github.com/zirafa/simple-website-template"
-          >Fork this repository</a
-        >
-        to create your own site!
-      </h5>
+      <h5>Created by Emilia House H. and Erin "Blaziken" H. 2025-2026</h5>
     </footer>
 
     <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="module" src="./tab_manager.ts"></script>
   </body>
 </html>
