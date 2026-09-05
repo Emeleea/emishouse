@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: '../dist'
   },
-  base: "/emis-house/",
+  base: "/emishouse/",
   plugins: [
     yaml()
   ]
