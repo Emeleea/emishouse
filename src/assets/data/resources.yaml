@@ -621,7 +621,7 @@
     - Kitchener-Waterloo
   url: "https://uwaterloo.ca/students/health-and-well-being/primary-care-appointments/gender-affirming-care"
   address: ""
-  description: ""
+  description: "A website that showcases the gender-affirming care available to students at UW."
 
 - title: "Glow Centre's Transgender Resource Library"
   categories:
@@ -653,4 +653,37 @@
     - Kitchener-Waterloo
   url: "https://students.wlu.ca/support-and-wellness/student-wellness-centre/assets/resources/lgbtq-care-wellness-centre.html"
   address: "Campus Dependant, check website"
-  description: "Quick overview of services and care provided at the Student Wellness Centre"
+  description: "Quick overview of services and care provided at the Student Wellness Centre of Waterloo University"
+
+- title: "Pace Pharmacy And Compounding Experts (Toronto)"
+  categories:
+    - Medical
+  regions:
+    - Toronto
+  url: "https://pacepharmacy.com/"
+  address: "14 Isabella St, Toronto, ON M4Y 1N1"
+  description: "416-515-PACE . One of the only affordable and consistent pharmacies for estrogen. Because they are the goto for so many trans folk, are very inclusive and knowledgeable. Two locations in Toronto, and can deliver anywhere in Canada! Suggested by u/dalecooperduckfarmau"
+
+  - title: "Pace Pharmacy And Compounding Experts (East York)"
+  categories:
+    - Medical
+  regions:
+    - Toronto
+  url: "https://pacepharmacy.com/"
+  address: "40 Laird Dr, East York, ON M4G 3T2"
+  description: "416-515-PACE . One of the only affordable and consistent pharmacies for estrogen. Because they are the goto for so many trans folk, are very inclusive and knowledgeable. Two locations in Toronto, and can deliver anywhere in Canada! Suggested by u/dalecooperduckfarmau"
+
+  - title: "MTF Voice Training | Free Intro Session | Sophie Edwards"
+  categories:
+    - Vocal
+    - Social
+  regions:
+    - Toronto
+  url: "https://sbedwards.co/about/"
+  address: ""
+  description: "Sophie Edwards is a Toronto-based voice-feminizing coach! She practices virtually and offers a free intro session. Suggested by u/transgenderhistory"
+
+
+
+
+
