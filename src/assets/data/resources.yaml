@@ -702,7 +702,7 @@
     - Surgeries
   regions:
   url: "transbucket.com"
-  address:
+  address: ""
   description: "Website where trans people can post and share post-op photos from trans surgeries. <b>WARNING: Plenty of gorey medical photos on this website!</b>"
 
 - title: "Transition Related Surgeries | Women's College Hospital"
@@ -713,7 +713,7 @@
     - Toronto
   url: "https://www.womenscollegehospital.ca/care-programs/surgery/transition-related-surgery/"
   address: "76 Grenville St, Toronto, ON M5S 1B2"
-  description: "One of few hospitals in Ontario that offers transgender surgeries. More info needed."
+  description: "One of few hospitals in Ontario that offers transgender surgeries. More info needed!"
 
 
 
