@@ -10,6 +10,11 @@
 - title: "HRT! Gender Affirming Care Spreadsheet"
   categories:
     - List
+    - Social
+    - Medical
+    - Legal
+    - Mental
+    - Post-Secondary
   regions:
   url: "https://docs.google.com/spreadsheets/d/111o63Tvt20heohe9KtRW_AZPBKOz4kpZ1pb7r0CJpvU"
   address:
@@ -673,15 +678,42 @@
   address: "40 Laird Dr, East York, ON M4G 3T2"
   description: "416-515-PACE . One of the only affordable and consistent pharmacies for estrogen. Because they are the goto for so many trans folk, are very inclusive and knowledgeable. Two locations in Toronto, and can deliver anywhere in Canada! Suggested by u/dalecooperduckfarmau"
 
-- title: "MTF Voice Training | Free Intro Session | Sophie Edwards"
+- title: "Sophie Edwards Voice Training for transfems"
   categories:
     - Vocal
-    - Social
   regions:
     - Toronto
   url: "https://sbedwards.co/about/"
   address: ""
-  description: "Sophie Edwards is a Toronto-based voice-feminizing coach! She practices virtually and offers a free intro session. Suggested by u/transgenderhistory"
+  description: "Sophie Edwards is a Toronto-based voice feminizing coach! She practices virtually and offers a free intro session. Suggested by u/transgenderhistory"
+
+- title: "Blueprint Counselling"
+  categories:
+    - Mental
+  regions:
+    - London
+  url: "https://www.bpcounselling.com/"
+  address: "111 Waterloo St #309, London, ON N6B 2M2"
+  description: "Counselling in London that has a large focus on supporting trans/queer folks. Recommended by u/heyjude1134"
+
+- title: "transbucket.com (NSFW)"
+  categories:
+    - Medical
+    - Surgeries
+  regions:
+  url: "transbucket.com"
+  address:
+  description: "Website where trans people can post and share post-op photos from trans surgeries. <b>WARNING: Plenty of gorey medical photos on this website!</b>"
+
+- title: "Transition Related Surgeries | Women's College Hospital"
+  categories:
+    - Medical
+    - Surgeries
+  regions:
+    - Toronto
+  url: "https://www.womenscollegehospital.ca/care-programs/surgery/transition-related-surgery/"
+  address: "76 Grenville St, Toronto, ON M5S 1B2"
+  description: "One of few hospitals in Ontario that offers transgender surgeries. More info needed."
 
 
 
